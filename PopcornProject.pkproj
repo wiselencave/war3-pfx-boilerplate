@@ -1,0 +1,113 @@
+Version = 2.5.2.63604;
+CProjectSettings	$D857A09F
+{
+	General = "$35A36C4E";
+	Scene = "$4B933A29";
+	LOD = "$9154DFA0";
+	Documentation = "$EAC726E3";
+	Assets = "$4ADE8DE2";
+	Baking = "$D279714D";
+}
+CProjectSettingsGeneral	$35A36C4E
+{
+	ProjectName = "reforgedPopcornFX";
+	RootDir = "";
+	TemplatesDir = "Editor/Templates";
+	AnimationTracksDir = "Editor/AnimationTracks";
+	ThumbnailsDir = "Editor/Thumbnails";
+	LibraryDir = "Popcorn/Library";
+	RuntimeConfigsDir = "Config";
+	DocumentationDir = "Documentation";
+	EditorCacheDir = "Editor/Cache";
+}
+CProjectSettingsScene	$4B933A29
+{
+	CoordinateFrame = Custom;
+	CoordinateFrameAxisX = Left;
+	CoordinateFrameAxisY = Backward;
+	CoordinateFrameAxisZ = Up;
+	DistanceUnits = Meter;
+	DefaultRestitution = 1.0000000e+00;
+	DefaultRestitutionCombineMode = Multiply;
+	DefaultFriction = 5.0000000e-01;
+	DefaultFrictionCombineMode = Average;
+	WindScale = 1.0000000e+00;
+}
+CProjectSettingsLOD	$9154DFA0
+{
+}
+CProjectSettingsDocumentation	$EAC726E3
+{
+}
+CProjectSettingsAssets	$4ADE8DE2
+{
+	EffectExtensions = {
+		"pkfx",
+	};
+	MeshExtensions = {
+		"fbx",
+	};
+	ImageExtensions = {
+		"dds",
+		"png",
+		"jpg",
+		"jpeg",
+		"tga",
+		"tif",
+		"tiff",
+		"pkm",
+		"pvr",
+		"exr",
+		"hdr",
+	};
+	ImageAtlasExtensions = {
+		"pkat",
+	};
+	FontExtensions = {
+		"ttf",
+		"otf",
+		"pkfm",
+	};
+	VectorFieldExtensions = {
+		"fga",
+		"pkvf",
+	};
+	SoundExtensions = {
+		"wav",
+		"ogg",
+		"mp3",
+	};
+	SimCacheExtensions = {
+		"pksc",
+	};
+	FeatureSetExtensions = {
+		"pkma",
+	};
+	VertexShaderExtensions = {
+		"vert",
+	};
+	FragmentShaderExtensions = {
+		"frag",
+	};
+	RendererInterfaceExtensions = {
+		"pkri",
+	};
+	VideoExtensions = {
+		"mp4",
+		"avi",
+		"ogv",
+		"wmv",
+	};
+}
+CProjectSettingsBaking	$D279714D
+{
+	PlatformSettingsList = {
+		"x64:map.w3x",
+	};
+	BuildVersions = {
+		"PC: desktop, windows",
+	};
+}
+CEditorProject	$5F621394
+{
+}

@@ -1,0 +1,45 @@
+Version = 2.5.2.63604;
+CParticleRendererFeatureSet	$6B70D015
+{
+	RendererFeatures = {
+		"$E8631443",
+		"$D0BFBDD9",
+		"$D857A09F",
+		"$DDEAB83F",
+		"$EEE60312",
+		"$05ED5D39",
+	};
+}
+CParticleRendererFeatureDesc	$E8631443
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "GeometryBillboard";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$D0BFBDD9
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Distortion";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$D857A09F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "EnableRendering";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$DDEAB83F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "SoftParticles";
+}
+CParticleRendererFeatureDesc	$EEE60312
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "FlipUVs";
+}
+CParticleRendererFeatureDesc	$05ED5D39
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Atlas";
+}

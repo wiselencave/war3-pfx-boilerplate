@@ -1,0 +1,76 @@
+Version = 2.5.2.63604;
+CParticleRendererFeatureSet	$6B70D015
+{
+	RendererFeatures = {
+		"$4126ECB5",
+		"$CF8BEC2E",
+		"$BF96EAFE",
+		"$35A36C4E",
+		"$E2692FEE",
+		"$341F28C8",
+		"$D857A09F",
+		"$9154ABA0",
+		"$4B933A29",
+		"$EAC726E3",
+		"$9154DFA0",
+	};
+}
+CParticleRendererFeatureDesc	$4126ECB5
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "GeometryMesh";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$CF8BEC2E
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Transparent";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$BF96EAFE
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Diffuse";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$35A36C4E
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "EnableRendering";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$E2692FEE
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Lit";
+}
+CParticleRendererFeatureDesc	$341F28C8
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "LegacyLit";
+}
+CParticleRendererFeatureDesc	$D857A09F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "MeshAtlas";
+}
+CParticleRendererFeatureDesc	$9154ABA0
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "AlphaRemap";
+}
+CParticleRendererFeatureDesc	$4B933A29
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Emissive";
+}
+CParticleRendererFeatureDesc	$EAC726E3
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "DiffuseRamp";
+}
+CParticleRendererFeatureDesc	$9154DFA0
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "TransformUVs";
+}

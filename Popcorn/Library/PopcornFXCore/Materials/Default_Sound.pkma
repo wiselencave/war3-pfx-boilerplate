@@ -1,0 +1,39 @@
+Version = 2.5.2.63604;
+CParticleRendererFeatureSet	$6B70D015
+{
+	RendererFeatures = {
+		"$F361BD3A",
+		"$DCB8444C",
+		"$D857A09F",
+		"$53C68443",
+		"$589BAB05",
+	};
+}
+CParticleRendererFeatureDesc	$F361BD3A
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "GeometrySound";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$DCB8444C
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Sound";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$D857A09F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "EnableRendering";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$53C68443
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "SoundAttenuation";
+}
+CParticleRendererFeatureDesc	$589BAB05
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Doppler";
+}

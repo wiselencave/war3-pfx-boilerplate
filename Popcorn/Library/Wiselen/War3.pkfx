@@ -1,0 +1,756 @@
+Version = 2.5.2.63604;
+CParticleEffect	$D857A09F
+{
+	LayerGraph = "$9154DFA0";
+	Templates = {
+		"$EC84D339",
+		"$12EF5AA1",
+	};
+	AttributeFlatList = "$35A36C4E";
+}
+CParticleAttributeList	$35A36C4E
+{
+}
+CEditorAssetEffect	$4B933A29
+{
+	StartCameraPosition = float3(3.0000000e+00, 2.5000000e+00, 3.0000000e+00);
+	StartCameraOrientation = float3(5.2359879e-01, -7.8539819e-01, 0.0000000e+00);
+	GridBackdrop = true;
+}
+CParticleNodeGraph	$9154DFA0
+{
+	CustomName = "Root";
+	Nodes = {
+		"$81FFA956",
+	};
+	Timeline = "$EAC726E3";
+	WorkspacePosition = int2(-168, 39);
+	WorkspaceZoom = -4;
+	GraphType = Event;
+}
+CParticleTimeline	$EAC726E3
+{
+	Tracks = {
+		"$4ADE8DE2",
+	};
+}
+CParticleTimelineTrack	$4ADE8DE2
+{
+	CustomName = "Root";
+	EventStream = "$D279714D";
+}
+CParticleNodeSamplerData_EventStream	$D279714D
+{
+	OutputPins = {
+		"$5F621394",
+	};
+	Times = {
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$5F621394
+{
+	SelfName = "Data";
+	Type = dataEventStream;
+	Owner = "$D279714D";
+}
+CParticleNodeGraph	$EC84D339
+{
+	CustomName = "War3Game";
+	Description = {
+		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
+	};
+	Public = true;
+	Nodes = {
+		"$0C954798",
+		"$E54029EE",
+		"$ED80C982",
+		"$C45BF55C",
+		"$9C42C17D",
+		"$55F99FBA",
+		"$C072C98D",
+		"$76B9DA18",
+		"$1151F6BB",
+		"$69CF2E9A",
+		"$41E5AFE7",
+		"$5F44DFAB",
+		"$9D2B1A2F",
+		"$89E0DDB2",
+		"$78A74806",
+		"$2FB70E0C",
+		"$96A2AA34",
+		"$D6EEA348",
+	};
+	WorkspacePosition = int2(255, 133);
+	WorkspaceZoom = -6;
+}
+CParticleNodeTemplateExport	$55F99FBA
+{
+	CustomName = {
+		"@eng:TargetPosition",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$C73E7C05",
+	};
+	WorkspacePosition = int2(-550, -66);
+	ExportedName = "TargetPosition";
+	ExportedType = float3;
+	Semantic = 3D_Coordinate;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$C73E7C05
+{
+	SelfName = "Value";
+	Owner = "$55F99FBA";
+	ConnectedPins = {
+		"$F1356840",
+	};
+}
+CParticleNodeTemplateExport	$0C954798
+{
+	CustomName = {
+		"@eng:LifespanMultiplier",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$B4F3323B",
+	};
+	WorkspacePosition = int2(-550, -990);
+	ExportedName = "LifespanMultiplier";
+	ExportedType = float;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$B4F3323B
+{
+	SelfName = "Value";
+	Owner = "$0C954798";
+	ConnectedPins = {
+		"$2909A531",
+	};
+}
+CParticleNodeTemplateExport	$C45BF55C
+{
+	CustomName = {
+		"@eng:ColorMultiplier",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$22B8D14F",
+	};
+	WorkspacePosition = int2(308, -418);
+	ExportedName = "ColorMultiplier";
+	ExportedType = float4;
+	Semantic = Color;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$22B8D14F
+{
+	SelfName = "Value";
+	Owner = "$C45BF55C";
+	ConnectedPins = {
+		"$DBE780E4",
+	};
+}
+CParticleNodeTemplateExport	$E54029EE
+{
+	CustomName = {
+		"@eng:EmissionRateMultiplier",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$5209F849",
+	};
+	WorkspacePosition = int2(-550, -836);
+	ExportedName = "EmissionRateMultiplier";
+	ExportedType = float;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$5209F849
+{
+	SelfName = "Value";
+	Owner = "$E54029EE";
+	ConnectedPins = {
+		"$D03359D5",
+	};
+}
+CParticleNodeTemplateExport	$ED80C982
+{
+	CustomName = {
+		"@eng:SpeedMultiplier",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$0384856D",
+	};
+	WorkspacePosition = int2(-550, -682);
+	ExportedName = "SpeedMultiplier";
+	ExportedType = float;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$0384856D
+{
+	SelfName = "Value";
+	Owner = "$ED80C982";
+	ConnectedPins = {
+		"$2BBAE5F0",
+	};
+}
+CParticleNodeTemplateExport	$9C42C17D
+{
+	CustomName = {
+		"@eng:TeamColor",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$AFB08F84",
+	};
+	WorkspacePosition = int2(308, -264);
+	ExportedName = "TeamColor";
+	ExportedType = float4;
+	Semantic = Color;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$AFB08F84
+{
+	SelfName = "Value";
+	Owner = "$9C42C17D";
+	ConnectedPins = {
+		"$1EA3501A",
+	};
+}
+CParticleNodeTemplateExport	$C072C98D
+{
+	CustomName = {
+		"@eng:Scale",
+	};
+	Description = {
+		"@eng:Game",
+	};
+	InputPins = {
+		"$F8EE30D4",
+	};
+	WorkspacePosition = int2(-550, 88);
+	ExportedName = "Scale";
+	ExportedType = float;
+	Semantic = 3D_Coordinate;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Game",
+	};
+}
+CParticleNodePinIn	$F8EE30D4
+{
+	SelfName = "Value";
+	Owner = "$C072C98D";
+	ConnectedPins = {
+		"$A913E2D6",
+	};
+}
+CParticleNodeGraph	$12EF5AA1
+{
+	CustomName = "War3Weather";
+	Description = {
+		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
+	};
+	Public = true;
+	Nodes = {
+		"$A5F2CD78",
+		"$C71AA220",
+		"$14C3FC67",
+		"$1749C465",
+		"$8EAEE7E8",
+		"$AAFF12BE",
+		"$5A435152",
+		"$14978373",
+	};
+	WorkspacePosition = int2(235, 30);
+	WorkspaceZoom = -4;
+}
+CParticleNodeTemplateExport	$A5F2CD78
+{
+	CustomName = {
+		"@eng:TileCenter",
+	};
+	InputPins = {
+		"$3F9A3D9B",
+	};
+	WorkspacePosition = int2(176, -220);
+	ExportedName = "TileCenter";
+	ExportedType = float3;
+	Semantic = 3D_Coordinate;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Weather",
+	};
+}
+CParticleNodePinIn	$3F9A3D9B
+{
+	SelfName = "Value";
+	Owner = "$A5F2CD78";
+	ConnectedPins = {
+		"$F527E9EA",
+	};
+}
+CParticleNodeTemplateExport	$C71AA220
+{
+	CustomName = {
+		"@eng:EmissionRate",
+	};
+	InputPins = {
+		"$ADC6DB63",
+	};
+	WorkspacePosition = int2(176, 132);
+	ExportedName = "EmissionRate";
+	ExportedType = float;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Weather",
+	};
+}
+CParticleNodePinIn	$ADC6DB63
+{
+	SelfName = "Value";
+	Owner = "$C71AA220";
+	ConnectedPins = {
+		"$A11A59A6",
+	};
+}
+CParticleNodeTemplateExport	$14C3FC67
+{
+	CustomName = {
+		"@eng:Size",
+	};
+	InputPins = {
+		"$633D8FB6",
+	};
+	WorkspacePosition = int2(176, -44);
+	ExportedName = "Size";
+	ExportedType = float2;
+	Semantic = 3D_Coordinate;
+	Type = Output;
+	VisibleByDefault = true;
+	CategoryName = {
+		"@eng:Weather",
+	};
+}
+CParticleNodePinIn	$633D8FB6
+{
+	SelfName = "Value";
+	Owner = "$14C3FC67";
+	ConnectedPins = {
+		"$09F16690",
+	};
+}
+CParticleNodeAnnotation	$76B9DA18
+{
+	CustomName = {
+		"@eng:Color Section",
+	};
+	WorkspacePosition = int2(-286, -506);
+	SelfSize = int2(814, 374);
+}
+CParticleNodeAnnotation	$1151F6BB
+{
+	CustomName = {
+		"@eng:Emitter Section",
+	};
+	WorkspacePosition = int2(-1144, -1078);
+	SelfSize = int2(814, 528);
+}
+CParticleNodeAnnotation	$69CF2E9A
+{
+	CustomName = {
+		"@eng:3D Section",
+	};
+	WorkspacePosition = int2(-1144, -154);
+	SelfSize = int2(814, 374);
+}
+CParticleNodeAnnotation	$1749C465
+{
+	CustomName = {
+		"@eng:Weather Section",
+	};
+	WorkspacePosition = int2(-418, -308);
+	SelfSize = int2(814, 572);
+}
+CParticleNodeAnnotation	$81FFA956
+{
+	CustomName = {
+		"@eng:Welcome!",
+	};
+	Description = {
+		"@eng:This is a file for the War3Game and War3Weather templates. These templates will allow you to quickly integrate Warcraft III: Reforged runtime attributes into your special effects. \\nDetailed documentation will be available soon! See Warcraft_3_FX_Simple.pkfx for example.\\nCreated by wiselen.",
+	};
+	WorkspacePosition = int2(-374, -330);
+	Color = float4(1.5294118e-01, 1.0000000e+00, 6.9019610e-01, 1.0000000e+00);
+	Sticky = false;
+	SelfSize = int2(1474, 330);
+}
+CParticleNodeTemplateExport	$41E5AFE7
+{
+	CustomName = {
+		"@eng:Game.LifespanMultiplier",
+	};
+	InputPins = {
+		"$BEDF8936",
+	};
+	OutputPins = {
+		"$2909A531",
+	};
+	WorkspacePosition = int2(-1100, -990);
+	ExportedName = "Game.LifespanMultiplier";
+	ExportedType = float;
+	Type = Input;
+	InputType = Attribute;
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleNodePinIn	$BEDF8936
+{
+	SelfName = "DefaultValue";
+	Owner = "$41E5AFE7";
+}
+CParticleNodePinOut	$2909A531
+{
+	SelfName = "Value";
+	Owner = "$41E5AFE7";
+	ConnectedPins = {
+		"$B4F3323B",
+	};
+}
+CParticleNodeTemplateExport	$5F44DFAB
+{
+	CustomName = {
+		"@eng:Game.EmissionRateMultiplier",
+	};
+	InputPins = {
+		"$D806D24A",
+	};
+	OutputPins = {
+		"$D03359D5",
+	};
+	WorkspacePosition = int2(-1100, -836);
+	ExportedName = "Game.EmissionRateMultiplier";
+	ExportedType = float;
+	Type = Input;
+	InputType = Attribute;
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleNodePinIn	$D806D24A
+{
+	SelfName = "DefaultValue";
+	Owner = "$5F44DFAB";
+}
+CParticleNodePinOut	$D03359D5
+{
+	SelfName = "Value";
+	Owner = "$5F44DFAB";
+	ConnectedPins = {
+		"$5209F849",
+	};
+}
+CParticleNodeTemplateExport	$9D2B1A2F
+{
+	CustomName = {
+		"@eng:Game.SpeedMultiplier",
+	};
+	InputPins = {
+		"$55289D1E",
+	};
+	OutputPins = {
+		"$2BBAE5F0",
+	};
+	WorkspacePosition = int2(-1100, -682);
+	ExportedName = "Game.SpeedMultiplier";
+	ExportedType = float;
+	Type = Input;
+	InputType = Attribute;
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleNodePinIn	$55289D1E
+{
+	SelfName = "DefaultValue";
+	Owner = "$9D2B1A2F";
+}
+CParticleNodePinOut	$2BBAE5F0
+{
+	SelfName = "Value";
+	Owner = "$9D2B1A2F";
+	ConnectedPins = {
+		"$0384856D",
+	};
+}
+CParticleNodeTemplateExport	$89E0DDB2
+{
+	CustomName = {
+		"@eng:Game.ColorMultiplier",
+	};
+	InputPins = {
+		"$AF0F155D",
+	};
+	OutputPins = {
+		"$DBE780E4",
+	};
+	WorkspacePosition = int2(-242, -418);
+	ExportedName = "Game.ColorMultiplier";
+	ExportedType = float4;
+	Semantic = Color;
+	Type = Input;
+	InputType = Attribute;
+	DefaultValueF4 = float4(1.0000000e+00, 1.0000000e+00, 1.0000000e+00, 1.0000000e+00);
+}
+CParticleNodePinIn	$AF0F155D
+{
+	SelfName = "DefaultValue";
+	Owner = "$89E0DDB2";
+}
+CParticleNodePinOut	$DBE780E4
+{
+	SelfName = "Value";
+	Owner = "$89E0DDB2";
+	ConnectedPins = {
+		"$22B8D14F",
+	};
+}
+CParticleNodeTemplateExport	$78A74806
+{
+	CustomName = {
+		"@eng:Game.TeamColor",
+	};
+	InputPins = {
+		"$AF09E441",
+	};
+	OutputPins = {
+		"$1EA3501A",
+	};
+	WorkspacePosition = int2(-242, -264);
+	ExportedName = "Game.TeamColor";
+	ExportedType = float4;
+	Semantic = Color;
+	Type = Input;
+	InputType = Attribute;
+	DefaultValueF4 = float4(1.0000000e+00, 1.0000000e+00, 1.0000000e+00, 1.0000000e+00);
+}
+CParticleNodePinIn	$AF09E441
+{
+	SelfName = "DefaultValue";
+	Owner = "$78A74806";
+}
+CParticleNodePinOut	$1EA3501A
+{
+	SelfName = "Value";
+	Owner = "$78A74806";
+	ConnectedPins = {
+		"$AFB08F84",
+	};
+}
+CParticleNodeTemplateExport	$2FB70E0C
+{
+	CustomName = {
+		"@eng:Game.TargetPosition",
+	};
+	InputPins = {
+		"$36207FBF",
+	};
+	OutputPins = {
+		"$F1356840",
+	};
+	WorkspacePosition = int2(-1100, -66);
+	ExportedName = "Game.TargetPosition";
+	ExportedType = float3;
+	Semantic = 3D_Coordinate;
+	Type = Input;
+	InputType = Attribute;
+}
+CParticleNodePinIn	$36207FBF
+{
+	SelfName = "DefaultValue";
+	Owner = "$2FB70E0C";
+}
+CParticleNodePinOut	$F1356840
+{
+	SelfName = "Value";
+	Owner = "$2FB70E0C";
+	ConnectedPins = {
+		"$C73E7C05",
+	};
+}
+CParticleNodeTemplateExport	$96A2AA34
+{
+	CustomName = {
+		"@eng:Game.Scale",
+	};
+	InputPins = {
+		"$D970BB07",
+	};
+	OutputPins = {
+		"$A913E2D6",
+	};
+	WorkspacePosition = int2(-1100, 88);
+	ExportedName = "Game.Scale";
+	ExportedType = float;
+	Type = Input;
+	InputType = Attribute;
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleNodePinIn	$D970BB07
+{
+	SelfName = "DefaultValue";
+	Owner = "$96A2AA34";
+}
+CParticleNodePinOut	$A913E2D6
+{
+	SelfName = "Value";
+	Owner = "$96A2AA34";
+	ConnectedPins = {
+		"$F8EE30D4",
+	};
+}
+CParticleNodeTemplateExport	$8EAEE7E8
+{
+	CustomName = {
+		"@eng:Weather.TileCenter",
+	};
+	InputPins = {
+		"$125230CB",
+	};
+	OutputPins = {
+		"$F527E9EA",
+	};
+	WorkspacePosition = int2(-374, -220);
+	ExportedName = "Weather.TileCenter";
+	ExportedType = float3;
+	Semantic = 3D_Coordinate;
+	Type = Input;
+	InputType = Attribute;
+}
+CParticleNodePinIn	$125230CB
+{
+	SelfName = "DefaultValue";
+	Owner = "$8EAEE7E8";
+}
+CParticleNodePinOut	$F527E9EA
+{
+	SelfName = "Value";
+	Owner = "$8EAEE7E8";
+	ConnectedPins = {
+		"$3F9A3D9B",
+	};
+}
+CParticleNodeTemplateExport	$AAFF12BE
+{
+	CustomName = {
+		"@eng:Weather.Size",
+	};
+	InputPins = {
+		"$6C5BA959",
+	};
+	OutputPins = {
+		"$09F16690",
+	};
+	WorkspacePosition = int2(-374, -44);
+	ExportedName = "Weather.Size";
+	ExportedType = float2;
+	Type = Input;
+	InputType = Attribute;
+}
+CParticleNodePinIn	$6C5BA959
+{
+	SelfName = "DefaultValue";
+	Owner = "$AAFF12BE";
+}
+CParticleNodePinOut	$09F16690
+{
+	SelfName = "Value";
+	Owner = "$AAFF12BE";
+	ConnectedPins = {
+		"$633D8FB6",
+	};
+}
+CParticleNodeTemplateExport	$5A435152
+{
+	CustomName = {
+		"@eng:Weather.EmissionRate",
+	};
+	InputPins = {
+		"$E406E297",
+	};
+	OutputPins = {
+		"$A11A59A6",
+	};
+	WorkspacePosition = int2(-374, 132);
+	ExportedName = "Weather.EmissionRate";
+	ExportedType = float;
+	Type = Input;
+	InputType = Attribute;
+}
+CParticleNodePinIn	$E406E297
+{
+	SelfName = "DefaultValue";
+	Owner = "$5A435152";
+}
+CParticleNodePinOut	$A11A59A6
+{
+	SelfName = "Value";
+	Owner = "$5A435152";
+	ConnectedPins = {
+		"$ADC6DB63",
+	};
+}
+CParticleNodeAnnotation	$D6EEA348
+{
+	Description = {
+		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
+	};
+	WorkspacePosition = int2(-2310, -616);
+	Color = float4(8.2352944e-02, 1.0000000e+00, 3.7254903e-01, 1.0000000e+00);
+	SelfSize = int2(1056, 176);
+}
+CParticleNodeAnnotation	$14978373
+{
+	Description = {
+		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
+	};
+	WorkspacePosition = int2(-1496, -154);
+	Color = float4(8.2352944e-02, 1.0000000e+00, 3.7254903e-01, 1.0000000e+00);
+	SelfSize = int2(1056, 176);
+}

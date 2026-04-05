@@ -1,0 +1,100 @@
+Version = 2.5.2.63604;
+CParticleRendererFeatureSet	$6B70D015
+{
+	RendererFeatures = {
+		"$191F1761",
+		"$5F3F8D5F",
+		"$3D324B43",
+		"$D857A09F",
+		"$EA3837ED",
+		"$02499109",
+		"$EA331F29",
+		"$1DB717AE",
+		"$1098ED35",
+		"$CAD62F46",
+		"$4B933A29",
+		"$C5F9C9BF",
+		"$D851A09F",
+		"$35A36C4E",
+		"$EAC726E3",
+	};
+}
+CParticleRendererFeatureDesc	$191F1761
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "GeometryBillboard";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$5F3F8D5F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Transparent";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$3D324B43
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Diffuse";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$D857A09F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "EnableRendering";
+	Mandatory = true;
+}
+CParticleRendererFeatureDesc	$EA3837ED
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Lit";
+}
+CParticleRendererFeatureDesc	$02499109
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "LegacyLit";
+}
+CParticleRendererFeatureDesc	$EA331F29
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "SoftParticles";
+}
+CParticleRendererFeatureDesc	$1DB717AE
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "FlipUVs";
+}
+CParticleRendererFeatureDesc	$1098ED35
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "AlphaRemap";
+}
+CParticleRendererFeatureDesc	$CAD62F46
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Atlas";
+}
+CParticleRendererFeatureDesc	$C5F9C9BF
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "NormalWrap";
+}
+CParticleRendererFeatureDesc	$D851A09F
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "DiffuseRamp";
+}
+CParticleRendererFeatureDesc	$35A36C4E
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "Emissive";
+}
+CParticleRendererFeatureDesc	$4B933A29
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "NormalBend";
+}
+CParticleRendererFeatureDesc	$EAC726E3
+{
+	RendererInterfacePath = "Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri";
+	RendererFeatureName = "TransformUVs";
+}

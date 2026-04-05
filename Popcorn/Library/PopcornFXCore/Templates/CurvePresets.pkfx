@@ -1,0 +1,472 @@
+Version = 2.5.2.63604;
+CParticleEffect	$D857A09F
+{
+	LayerGraph = "$9154DFA0";
+	Templates = {
+		"$41E5AFE7",
+		"$BEDF8936",
+		"$EC84D339",
+		"$DBE780E4",
+		"$D806D24A",
+		"$55289D1E",
+		"$AF09E441",
+		"$1EA3501A",
+		"$36207FBF",
+		"$F1356840",
+	};
+	AttributeFlatList = "$35A36C4E";
+}
+CParticleAttributeList	$35A36C4E
+{
+}
+CEditorAssetEffect	$4B933A29
+{
+	StartCameraPosition = float3(3.0000000e+00, 2.5000000e+00, 3.0000000e+00);
+	StartCameraOrientation = float3(5.2359879e-01, -7.8539819e-01, 0.0000000e+00);
+	GridBackdrop = true;
+}
+CParticleNodeGraph	$9154DFA0
+{
+	CustomName = "Root";
+	Timeline = "$EAC726E3";
+	WorkspaceZoom = -4;
+	GraphType = Event;
+}
+CParticleTimeline	$EAC726E3
+{
+	Tracks = {
+		"$4ADE8DE2",
+	};
+}
+CParticleTimelineTrack	$4ADE8DE2
+{
+	CustomName = "Root";
+	EventStream = "$D279714D";
+}
+CParticleNodeSamplerData_EventStream	$D279714D
+{
+	OutputPins = {
+		"$5F621394",
+	};
+	Times = {
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$5F621394
+{
+	SelfName = "Data";
+	Type = dataEventStream;
+	Owner = "$D279714D";
+}
+CParticleNodeGraph	$41E5AFE7
+{
+	CustomName = "LinearCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$D6EEA348",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$D6EEA348
+{
+	OutputPins = {
+		"$5F44DFAB",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		1.0000000e+00,
+		1.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$5F44DFAB
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$D6EEA348";
+}
+CParticleNodeGraph	$BEDF8936
+{
+	CustomName = "EaseInCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$2909A531",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$2909A531
+{
+	OutputPins = {
+		"$C01E62BC",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		0.0000000e+00,
+		2.0000000e+00,
+		2.0000000e+00,
+	};
+}
+CParticleNodePinOut	$C01E62BC
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$2909A531";
+}
+CParticleNodeGraph	$EC84D339
+{
+	CustomName = "EaseOutCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$2BBAE5F0",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$2BBAE5F0
+{
+	OutputPins = {
+		"$14978373",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatTangents = {
+		2.0000000e+00,
+		2.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$14978373
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$2BBAE5F0";
+}
+CParticleNodeGraph	$DBE780E4
+{
+	CustomName = "EaseInOutCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$1A05FF77",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$1A05FF77
+{
+	OutputPins = {
+		"$78A74806",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$78A74806
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$1A05FF77";
+}
+CParticleNodeGraph	$D806D24A
+{
+	CustomName = "EasyEaseCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$D03359D5",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$D03359D5
+{
+	OutputPins = {
+		"$9D2B1A2F",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		5.0000000e-01,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+		0.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$9D2B1A2F
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$D03359D5";
+}
+CParticleNodeGraph	$55289D1E
+{
+	CustomName = "EasyEaseInCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$89E0DDB2",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$89E0DDB2
+{
+	OutputPins = {
+		"$AF0F155D",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		5.0000000e-01,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+		0.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		2.0000000e+00,
+		0.0000000e+00,
+		-2.0000000e+00,
+		0.0000000e+00,
+		4.0000000e+00,
+	};
+}
+CParticleNodePinOut	$AF0F155D
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$89E0DDB2";
+}
+CParticleNodeGraph	$AF09E441
+{
+	CustomName = "EasyEaseOutCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$0C954798",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$0C954798
+{
+	OutputPins = {
+		"$B4F3323B",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		5.0000000e-01,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+		0.0000000e+00,
+	};
+	FloatTangents = {
+		-4.0000000e+00,
+		0.0000000e+00,
+		2.0000000e+00,
+		0.0000000e+00,
+		-2.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$B4F3323B
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$0C954798";
+}
+CParticleNodeGraph	$1EA3501A
+{
+	CustomName = "TriangularCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$7837C3E5",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$7837C3E5
+{
+	OutputPins = {
+		"$2FB70E0C",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		5.0000000e-01,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+		0.0000000e+00,
+	};
+	FloatTangents = {
+		-2.0000000e+00,
+		1.0000000e+00,
+		1.0000000e+00,
+		-1.0000000e+00,
+		-1.0000000e+00,
+		2.0000000e+00,
+	};
+}
+CParticleNodePinOut	$2FB70E0C
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$7837C3E5";
+}
+CParticleNodeGraph	$36207FBF
+{
+	CustomName = "PinchCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$E54029EE",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$E54029EE
+{
+	OutputPins = {
+		"$5209F849",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		5.0000000e-01,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		1.0000000e+00,
+		0.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		0.0000000e+00,
+		2.0000000e+00,
+		-2.0000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$5209F849
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$E54029EE";
+}
+CParticleNodeGraph	$F1356840
+{
+	CustomName = "BellCurve";
+	Public = true;
+	AutoInline = true;
+	ClassType = Sampler;
+	Nodes = {
+		"$D0980C03",
+	};
+	WorkspaceZoom = -4;
+}
+CParticleNodeSamplerData_Curve	$D0980C03
+{
+	OutputPins = {
+		"$ED80C982",
+	};
+	WorkspacePosition = int2(-88, -44);
+	Times = {
+		0.0000000e+00,
+		3.7500000e-01,
+		5.0000000e-01,
+		6.2500000e-01,
+		1.0000000e+00,
+	};
+	FloatValues = {
+		0.0000000e+00,
+		5.0000000e-01,
+		1.0000000e+00,
+		5.0000000e-01,
+		0.0000000e+00,
+	};
+	FloatTangents = {
+		0.0000000e+00,
+		0.0000000e+00,
+		1.5000000e+00,
+		5.0000000e-01,
+		0.0000000e+00,
+		0.0000000e+00,
+		-5.0000000e-01,
+		-1.5000000e+00,
+		0.0000000e+00,
+		0.0000000e+00,
+	};
+}
+CParticleNodePinOut	$ED80C982
+{
+	SelfName = "Data";
+	Type = dataCurve;
+	Owner = "$D0980C03";
+}

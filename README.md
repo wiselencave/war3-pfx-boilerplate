@@ -50,7 +50,7 @@ To use them, add the `War3Game` or `War3Weather` node to any effect's particle g
 
 The baking config is located at `Popcorn/AssetBaker.pkcf`. It targets `map.w3x/` — an unpacked map folder at the project root, so baked files and assets end up directly inside the map.
 
-Baking is also possible via the CLI tool `PopcornAssetBakerd.exe` for more advanced pipelines, but documentation for that workflow is not yet available.
+Baking is also possible via the CLI tool `PopcornAssetBaker.exe` for more advanced pipelines, but documentation for that workflow is not yet available.
 
 ## Important notes
 

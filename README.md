@@ -56,6 +56,7 @@ Baking is also possible via the CLI tool `PopcornAssetBaker.exe` for more advanc
 
 - PK-Editor version **2.5.x** is required. Other versions may not be compatible with Reforged's runtime.
 - The project uses a slightly different PopcornFX build version than what ships with Reforged, but baked files still load correctly.
+- Baked `.pkfx` and `.pkb` are the same binary format. There is no need to rename the extension before importing into the game.
 
 ## Links
 

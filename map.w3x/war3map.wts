@@ -1,21 +1,16 @@
 ﻿STRING 1
 {
-Just another Warcraft III map
-}
-
-STRING 2
-{
-Any
+PopcornFX Test Map
 }
 
 STRING 3
 {
-Nondescript
+https://github.com/wiselencave/war3-pfx-boilerplate
 }
 
 STRING 4
 {
-Unknown
+wiselen
 }
 
 STRING 5

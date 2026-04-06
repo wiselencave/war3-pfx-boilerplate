@@ -1,29 +1,25 @@
-gg_trg_Melee_Initialization = nil
+gg_trg_Initialization = nil
 function InitGlobals()
 end
 
-function Trig_Melee_Initialization_Actions()
-MeleeStartingVisibility()
-MeleeStartingHeroLimit()
-MeleeGrantHeroItems()
-MeleeStartingResources()
-MeleeClearExcessUnits()
-MeleeStartingUnits()
-MeleeStartingAI()
-MeleeInitVictoryDefeat()
+function helloWorld()
+    print "Welcome to the |cff3d9979PopcornFX|r test map"
+    print(os.date("%Y-%m-%d %H:%M:%S")) 
+end
+function Trig_Initialization_Actions()
+FogMaskEnableOff()
+FogEnableOff()
+    helloWorld()
 end
 
-function InitTrig_Melee_Initialization()
-gg_trg_Melee_Initialization = CreateTrigger()
-TriggerAddAction(gg_trg_Melee_Initialization, Trig_Melee_Initialization_Actions)
+function InitTrig_Initialization()
+gg_trg_Initialization = CreateTrigger()
+TriggerRegisterTimerEventSingle(gg_trg_Initialization, 0.00)
+TriggerAddAction(gg_trg_Initialization, Trig_Initialization_Actions)
 end
 
 function InitCustomTriggers()
-InitTrig_Melee_Initialization()
-end
-
-function RunInitializationTriggers()
-ConditionalTriggerExecute(gg_trg_Melee_Initialization)
+InitTrig_Initialization()
 end
 
 function InitCustomPlayerSlots()
@@ -48,7 +44,6 @@ SetMapMusic("Music", true, 0)
 InitBlizzard()
 InitGlobals()
 InitCustomTriggers()
-RunInitializationTriggers()
 end
 
 function config()
@@ -57,7 +52,7 @@ SetMapDescription("TRIGSTR_003")
 SetPlayers(1)
 SetTeams(1)
 SetGamePlacement(MAP_PLACEMENT_USE_MAP_SETTINGS)
-DefineStartLocation(0, -1871.3, 2457.7)
+DefineStartLocation(0, 0.0, 0.0)
 InitCustomPlayerSlots()
 SetPlayerSlotAvailable(Player(0), MAP_CONTROL_USER)
 InitGenericPlayerSlots()

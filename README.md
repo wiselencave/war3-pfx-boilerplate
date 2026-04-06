@@ -10,11 +10,12 @@ The project is pre-configured so you can start making effects right away without
 - **BC3 textures** — all default `.dds` textures re-compressed to BC3 (DXT5) for Reforged compatibility
 - **Coordinate system** — the project axes coincide with the Warcraft axes *(I hope)*
 - **Baking config** — minimal setup targeting a map folder, ready to use with Quick Bake
+- **Launch scripts** — `runWarcraft.bat` and `runWorldEditor.bat` for quick testing in game
 - **Attribute templates** — `War3Game` and `War3Weather` public templates with standard runtime attributes
 
 ## Attribute templates
 
-Two public templates in `Library/Wiselen/` provide commonly used Reforged runtime attributes as reusable nodes:
+Two public templates in `Library/Wiselen/War3.pkfx` provide commonly used Reforged runtime attributes as reusable nodes:
 
 ### War3Game
 
@@ -47,12 +48,19 @@ Detailed documentation on how these attributes map to Reforged's runtime (MDX tr
 3. Create a new effect in `FX/`
 4. Add `War3Game` / `War3Weather` nodes if you need runtime attributes
 5. Use **Quick Bake** to export into the map folder
+6. Run `runWarcraft.bat` or `runWorldEditor.bat` to quick test in game
 
 ## Baking
 
 The baking config is located at `Popcorn/AssetBaker.pkcf`. It targets `map.w3x/` — an unpacked map folder at the project root, so baked files and assets end up directly inside the map.
 
 Baking is also possible via the CLI tool `PopcornAssetBaker.exe` for more advanced pipelines, but documentation for that workflow is not yet available.
+
+## Testing
+ 
+`runWarcraft.bat` and `runWorldEditor.bat` launch the unpacked map folder via `-launch -loadfile`. The Warcraft III path is resolved from the Windows registry automatically.
+ 
+Under the hood it's just `"Warcraft III.exe" -launch -loadfile "path\to\map.w3x"` — the same command that modders use to launch maps from IDEs and build tools. The bat files are included for quick testing. How you integrate PopcornFX into your project pipeline is up to you.
 
 ## Important notes
 

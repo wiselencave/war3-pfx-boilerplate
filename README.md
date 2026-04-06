@@ -45,7 +45,7 @@ Detailed documentation on how these attributes map to Reforged's runtime (MDX tr
 
 1. Clone the repo
 2. Open the project in PK-Editor v2.5
-3. Create a new effect in `FX/`
+3. Create a new effect in `SharedFX/`
 4. Add `War3Game` / `War3Weather` nodes if you need runtime attributes
 5. Use **Quick Bake** to export into the map folder
 6. Run `runWarcraft.bat` or `runWorldEditor.bat` to quick test in game

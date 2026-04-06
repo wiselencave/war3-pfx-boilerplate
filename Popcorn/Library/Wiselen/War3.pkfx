@@ -21,11 +21,13 @@ CParticleNodeGraph	$9154DFA0
 {
 	CustomName = "Root";
 	Nodes = {
-		"$81FFA956",
+		"$C01E62BC",
+		"$1A05FF77",
+		"$7837C3E5",
 	};
 	Timeline = "$EAC726E3";
-	WorkspacePosition = int2(-168, 39);
-	WorkspaceZoom = -4;
+	WorkspacePosition = int2(-112, 36);
+	WorkspaceZoom = -3;
 	GraphType = Event;
 }
 CParticleTimeline	$EAC726E3
@@ -61,6 +63,7 @@ CParticleNodeGraph	$EC84D339
 		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
 	};
 	Public = true;
+	ClassType = Sampler;
 	Nodes = {
 		"$0C954798",
 		"$E54029EE",
@@ -79,9 +82,10 @@ CParticleNodeGraph	$EC84D339
 		"$78A74806",
 		"$2FB70E0C",
 		"$96A2AA34",
-		"$D6EEA348",
+		"$D0980C03",
+		"$17E22F51",
 	};
-	WorkspacePosition = int2(255, 133);
+	WorkspacePosition = int2(262, 142);
 	WorkspaceZoom = -6;
 }
 CParticleNodeTemplateExport	$55F99FBA
@@ -95,7 +99,7 @@ CParticleNodeTemplateExport	$55F99FBA
 	InputPins = {
 		"$C73E7C05",
 	};
-	WorkspacePosition = int2(-550, -66);
+	WorkspacePosition = int2(-550, -110);
 	ExportedName = "TargetPosition";
 	ExportedType = float3;
 	Semantic = 3D_Coordinate;
@@ -152,7 +156,7 @@ CParticleNodeTemplateExport	$C45BF55C
 	InputPins = {
 		"$22B8D14F",
 	};
-	WorkspacePosition = int2(308, -418);
+	WorkspacePosition = int2(440, -440);
 	ExportedName = "ColorMultiplier";
 	ExportedType = float4;
 	Semantic = Color;
@@ -237,7 +241,7 @@ CParticleNodeTemplateExport	$9C42C17D
 	InputPins = {
 		"$AFB08F84",
 	};
-	WorkspacePosition = int2(308, -264);
+	WorkspacePosition = int2(440, -286);
 	ExportedName = "TeamColor";
 	ExportedType = float4;
 	Semantic = Color;
@@ -266,7 +270,7 @@ CParticleNodeTemplateExport	$C072C98D
 	InputPins = {
 		"$F8EE30D4",
 	};
-	WorkspacePosition = int2(-550, 88);
+	WorkspacePosition = int2(-550, 44);
 	ExportedName = "Scale";
 	ExportedType = float;
 	Semantic = 3D_Coordinate;
@@ -291,6 +295,7 @@ CParticleNodeGraph	$12EF5AA1
 		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
 	};
 	Public = true;
+	ClassType = Sampler;
 	Nodes = {
 		"$A5F2CD78",
 		"$C71AA220",
@@ -299,7 +304,8 @@ CParticleNodeGraph	$12EF5AA1
 		"$8EAEE7E8",
 		"$AAFF12BE",
 		"$5A435152",
-		"$14978373",
+		"$E7F879F5",
+		"$23F9C093",
 	};
 	WorkspacePosition = int2(235, 30);
 	WorkspaceZoom = -4;
@@ -386,45 +392,32 @@ CParticleNodeAnnotation	$76B9DA18
 	CustomName = {
 		"@eng:Color Section",
 	};
-	WorkspacePosition = int2(-286, -506);
-	SelfSize = int2(814, 374);
+	WorkspacePosition = int2(-220, -506);
+	SelfSize = int2(880, 330);
 }
 CParticleNodeAnnotation	$1151F6BB
 {
 	CustomName = {
 		"@eng:Emitter Section",
 	};
-	WorkspacePosition = int2(-1144, -1078);
-	SelfSize = int2(814, 528);
+	WorkspacePosition = int2(-1276, -1078);
+	SelfSize = int2(1034, 528);
 }
 CParticleNodeAnnotation	$69CF2E9A
 {
 	CustomName = {
 		"@eng:3D Section",
 	};
-	WorkspacePosition = int2(-1144, -154);
-	SelfSize = int2(814, 374);
+	WorkspacePosition = int2(-1276, -176);
+	SelfSize = int2(946, 330);
 }
 CParticleNodeAnnotation	$1749C465
 {
 	CustomName = {
 		"@eng:Weather Section",
 	};
-	WorkspacePosition = int2(-418, -308);
-	SelfSize = int2(814, 572);
-}
-CParticleNodeAnnotation	$81FFA956
-{
-	CustomName = {
-		"@eng:Welcome!",
-	};
-	Description = {
-		"@eng:This is a file for the War3Game and War3Weather templates. These templates will allow you to quickly integrate Warcraft III: Reforged runtime attributes into your special effects. \\nDetailed documentation will be available soon! See Warcraft_3_FX_Simple.pkfx for example.\\nCreated by wiselen.",
-	};
-	WorkspacePosition = int2(-374, -330);
-	Color = float4(1.5294118e-01, 1.0000000e+00, 6.9019610e-01, 1.0000000e+00);
-	Sticky = false;
-	SelfSize = int2(1474, 330);
+	WorkspacePosition = int2(-484, -308);
+	SelfSize = int2(880, 572);
 }
 CParticleNodeTemplateExport	$41E5AFE7
 {
@@ -530,7 +523,7 @@ CParticleNodeTemplateExport	$89E0DDB2
 	OutputPins = {
 		"$DBE780E4",
 	};
-	WorkspacePosition = int2(-242, -418);
+	WorkspacePosition = int2(-110, -440);
 	ExportedName = "Game.ColorMultiplier";
 	ExportedType = float4;
 	Semantic = Color;
@@ -562,7 +555,7 @@ CParticleNodeTemplateExport	$78A74806
 	OutputPins = {
 		"$1EA3501A",
 	};
-	WorkspacePosition = int2(-242, -264);
+	WorkspacePosition = int2(-110, -286);
 	ExportedName = "Game.TeamColor";
 	ExportedType = float4;
 	Semantic = Color;
@@ -594,7 +587,7 @@ CParticleNodeTemplateExport	$2FB70E0C
 	OutputPins = {
 		"$F1356840",
 	};
-	WorkspacePosition = int2(-1100, -66);
+	WorkspacePosition = int2(-1100, -110);
 	ExportedName = "Game.TargetPosition";
 	ExportedType = float3;
 	Semantic = 3D_Coordinate;
@@ -625,7 +618,7 @@ CParticleNodeTemplateExport	$96A2AA34
 	OutputPins = {
 		"$A913E2D6",
 	};
-	WorkspacePosition = int2(-1100, 88);
+	WorkspacePosition = int2(-1100, 44);
 	ExportedName = "Game.Scale";
 	ExportedType = float;
 	Type = Input;
@@ -736,21 +729,70 @@ CParticleNodePinOut	$A11A59A6
 		"$ADC6DB63",
 	};
 }
-CParticleNodeAnnotation	$D6EEA348
+CParticleNodeAnnotation	$C01E62BC
 {
-	Description = {
-		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
+	CustomName = {
+		"@eng:Welcome!",
 	};
-	WorkspacePosition = int2(-2310, -616);
-	Color = float4(8.2352944e-02, 1.0000000e+00, 3.7254903e-01, 1.0000000e+00);
-	SelfSize = int2(1056, 176);
+	Description = {
+		"@eng:This is a file for the War3Game and War3Weather templates. These templates will allow you to quickly integrate Warcraft III: Reforged runtime attributes into your special effects. Don\'t edit them yourself unless you clearly understand what you\'re doing!\\n\\nSee Warcraft_3_FX_Simple.pkfx for an usage example.\\n\\n",
+	};
+	WorkspacePosition = int2(-528, -352);
+	Color = float4(1.5294118e-01, 1.0000000e+00, 6.9019610e-01, 1.0000000e+00);
+	Sticky = false;
+	SelfSize = int2(1474, 286);
 }
-CParticleNodeAnnotation	$14978373
+CParticleNodeAnnotation	$1A05FF77
 {
 	Description = {
-		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
+		"@eng: https://github.com/wiselencave/war3-pfx-boilerplate",
 	};
-	WorkspacePosition = int2(-1496, -154);
+	WorkspacePosition = int2(-528, 154);
+	Color = float4(9.7254908e-01, 6.6666670e-02, 1.0000000e+00, 1.0000000e+00);
+	SelfSize = int2(1474, 132);
+}
+CParticleNodeAnnotation	$7837C3E5
+{
+	Description = {
+		"@eng:Created by wiselen. Follow updates on GitHub. Detailed documentation will be available soon!",
+	};
+	WorkspacePosition = int2(-528, -44);
+	Color = float4(8.2352944e-02, 1.0000000e+00, 1.8823531e-01, 1.0000000e+00);
+	SelfSize = int2(1474, 176);
+}
+CParticleNodeAnnotation	$D0980C03
+{
+	Description = {
+		"@eng:Runtime attributes for world objects in Warcraft III: Reforged\\n\\nDetailed documentation is coming soon!\\nFollow updates on GitHub",
+	};
+	WorkspacePosition = int2(-2464, -726);
 	Color = float4(8.2352944e-02, 1.0000000e+00, 3.7254903e-01, 1.0000000e+00);
-	SelfSize = int2(1056, 176);
+	SelfSize = int2(1100, 286);
+}
+CParticleNodeAnnotation	$17E22F51
+{
+	Description = {
+		"@eng: https://github.com/wiselencave/war3-pfx-boilerplate",
+	};
+	WorkspacePosition = int2(-2486, -220);
+	Color = float4(9.7254908e-01, 6.6666670e-02, 1.0000000e+00, 1.0000000e+00);
+	SelfSize = int2(1144, 198);
+}
+CParticleNodeAnnotation	$E7F879F5
+{
+	Description = {
+		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged\\n\\nDetailed documentation is coming soon!\\nFollow updates on GitHub",
+	};
+	WorkspacePosition = int2(-1672, -308);
+	Color = float4(8.2352944e-02, 1.0000000e+00, 3.7254903e-01, 1.0000000e+00);
+	SelfSize = int2(1144, 286);
+}
+CParticleNodeAnnotation	$23F9C093
+{
+	Description = {
+		"@eng: https://github.com/wiselencave/war3-pfx-boilerplate",
+	};
+	WorkspacePosition = int2(-1672, 44);
+	Color = float4(9.7254908e-01, 6.6666670e-02, 1.0000000e+00, 1.0000000e+00);
+	SelfSize = int2(1144, 198);
 }

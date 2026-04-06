@@ -3,17 +3,19 @@ CEditorAssetRegistry	$D857A09F
 {
 	RootDir = "$35A36C4E";
 	FakeNodeRoot = "$4B933A29";
+	CB_CurrentDir = "Popcorn/Library/Wiselen";
 	LastResourceDialogPath = "F:/wc3_projects/reforgedPopcornFX";
 	RegistryVersion = 11;
 }
 CEditorAssetEntryDir	$35A36C4E
 {
-	InternalIndexedLastModifiedTime = uint2(413, 1585571859);
+	InternalIndexedLastModifiedTime = uint2(413, 1676131711);
 	Assets = {
 		"$9154DFA0",
-		"$5F44DFAB",
 		"$D806D24A",
 		"$F1356840",
+		"$382772C1",
+		"$70EAA19E",
 	};
 }
 CEditorFakeNodeRoot	$4B933A29
@@ -42,7 +44,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, 1597382109);
+	InternalIndexedLastModifiedTime = uint2(413, 1680017111);
 	Assets = {
 		"$D279714D",
 	};
@@ -55,20 +57,19 @@ CEditorAssetEntryDir	$D279714D
 CEditorAssetEntryDir	$5F621394
 {
 	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, 1597176597);
+	InternalIndexedLastModifiedTime = uint2(413, 1676363537);
 	Assets = {
 		"$E7F879F5",
 		"$C45BF55C",
-		"$35B2CED7",
 	};
 }
 CEditorAssetEntryDir	$41E5AFE7
 {
 	Filename = "Thumbnails";
-	InternalIndexedLastModifiedTime = uint2(413, 1582539616);
+	InternalIndexedLastModifiedTime = uint2(413, 1676131712);
 	Assets = {
 		"$BEDF8936",
-		"$D6EEA348",
+		"$4F1C27CD",
 	};
 }
 CEditorAssetEntryDir	$BEDF8936
@@ -82,100 +83,28 @@ CEditorAssetEntryDir	$BEDF8936
 CEditorAssetEntryDir	$2909A531
 {
 	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, 1597153860);
-}
-CEditorAssetEntryDir	$D6EEA348
-{
-	Filename = "FX";
-	InternalIndexedLastModifiedTime = uint2(413, 1597153860);
-}
-CEditorAssetEntryDir	$5F44DFAB
-{
-	Filename = "FX";
-	InternalIndexedLastModifiedTime = uint2(413, 1597153859);
+	InternalIndexedLastModifiedTime = uint2(413, 1676363666);
 }
 CEditorAssetEntryDir	$D806D24A
 {
 	Filename = "map.w3x";
-	InternalIndexedLastModifiedTime = uint2(413, 1584314366);
+	InternalIndexedLastModifiedTime = uint2(413, 1679615361);
 	Assets = {
-		"$D03359D5",
-		"$C01E62BC",
 		"$89E0DDB2",
 		"$AF0F155D",
-	};
-}
-CEditorAssetEntryDir	$D03359D5
-{
-	Filename = "FX";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641690);
-	Assets = {
-		"$9C42C17D",
-	};
-}
-CEditorAssetEntryDir	$C01E62BC
-{
-	Filename = "Popcorn";
-	InternalIndexedLastModifiedTime = uint2(413, 1584314366);
-	Assets = {
-		"$9D2B1A2F",
-	};
-}
-CEditorAssetEntryDir	$9D2B1A2F
-{
-	Filename = "Library";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641751);
-	Assets = {
-		"$55289D1E",
-		"$CED2BAC4",
-	};
-}
-CEditorAssetEntryDir	$55289D1E
-{
-	Filename = "PopcornFXCore";
-	InternalIndexedLastModifiedTime = uint2(413, 1584314367);
-	Assets = {
-		"$EC84D339",
-		"$14978373",
-	};
-}
-CEditorAssetEntryDir	$EC84D339
-{
-	Filename = "Materials";
-	InternalIndexedLastModifiedTime = uint2(413, 1584314413);
-	Assets = {
-		"$2BBAE5F0",
-		"$E406E297",
-	};
-}
-CEditorAssetEntryDir	$2BBAE5F0
-{
-	Filename = "DefaultTextures";
-	InternalIndexedLastModifiedTime = uint2(413, 1584314413);
-	Assets = {
-		"$AFB08F84",
-	};
-}
-CEditorAssetEntryDir	$14978373
-{
-	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641748);
-	Assets = {
-		"$A11A59A6",
-		"$DD2B8661",
-		"$1A488438",
-		"$42F2DB5B",
+		"$B747CC14",
+		"$2D55ECAF",
 	};
 }
 CEditorAssetEntryDir	$89E0DDB2
 {
 	Filename = "war3mapImported";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363766);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540379);
 }
 CEditorAssetEntryDir	$AF0F155D
 {
 	Filename = "_Locales";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363772);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540384);
 	Assets = {
 		"$DBE780E4",
 		"$1A05FF77",
@@ -190,66 +119,67 @@ CEditorAssetEntryDir	$AF0F155D
 		"$E54029EE",
 		"$5209F849",
 	};
+	CB_Expanded = true;
 }
 CEditorAssetEntryDir	$DBE780E4
 {
 	Filename = "deDE.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363767);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540380);
 }
 CEditorAssetEntryDir	$1A05FF77
 {
 	Filename = "enUS.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363768);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540380);
 }
 CEditorAssetEntryDir	$78A74806
 {
 	Filename = "esES.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363768);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540381);
 }
 CEditorAssetEntryDir	$AF09E441
 {
 	Filename = "esMX.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363768);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540381);
 }
 CEditorAssetEntryDir	$0C954798
 {
 	Filename = "frFR.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363769);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540382);
 }
 CEditorAssetEntryDir	$B4F3323B
 {
 	Filename = "itIT.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363769);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540382);
 }
 CEditorAssetEntryDir	$1EA3501A
 {
 	Filename = "koKR.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363770);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540382);
 }
 CEditorAssetEntryDir	$7837C3E5
 {
 	Filename = "plPL.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363770);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540383);
 }
 CEditorAssetEntryDir	$2FB70E0C
 {
 	Filename = "ptBR.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363771);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540383);
 }
 CEditorAssetEntryDir	$36207FBF
 {
 	Filename = "ruRU.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363771);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540384);
 }
 CEditorAssetEntryDir	$E54029EE
 {
 	Filename = "zhCN.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363771);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540384);
 }
 CEditorAssetEntryDir	$5209F849
 {
 	Filename = "zhTW.w3mod";
-	InternalIndexedLastModifiedTime = uint2(413, 1582363772);
+	InternalIndexedLastModifiedTime = uint2(413, 1675540384);
 }
 CEditorAssetEntryDir	$F1356840
 {
@@ -258,6 +188,7 @@ CEditorAssetEntryDir	$F1356840
 	Assets = {
 		"$D0980C03",
 	};
+	CB_Expanded = true;
 }
 CEditorAssetEntryDir	$D0980C03
 {
@@ -267,6 +198,7 @@ CEditorAssetEntryDir	$D0980C03
 		"$ED80C982",
 		"$8EAEE7E8",
 	};
+	CB_Expanded = true;
 }
 CEditorAssetEntryDir	$ED80C982
 {
@@ -356,10 +288,12 @@ CEditorAssetEntryDir	$17E22F51
 CEditorAssetEntryDir	$8EAEE7E8
 {
 	Filename = "Wiselen";
-	InternalIndexedLastModifiedTime = uint2(413, 1596079117);
+	InternalIndexedLastModifiedTime = uint2(413, 1679980800);
 	Assets = {
 		"$74AE6FBD",
+		"$D984FC86",
 	};
+	CB_Expanded = true;
 }
 CEditorAssetEntryMesh	$125230CB
 {
@@ -429,64 +363,6 @@ CEditorTemplatePinEntry	$5A435152
 	ObjectUID = 268711154;
 	PinName = "Velocity";
 	DataType = 11;
-}
-CEditorAssetEntryEffect	$9C42C17D
-{
-	Filename = "FX_Simple.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641690);
-	IndexedFileSize = 19992;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryTexture	$AFB08F84
-{
-	Filename = "Diffuse.dds";
-	InternalIndexedLastModifiedTime = uint2(413, 1581769053);
-	IndexedFileSize = 21972;
-	Dirty = true;
-}
-CEditorAssetEntryFeatureSet	$E406E297
-{
-	Filename = "Default_Billboard.pkma";
-	InternalIndexedLastModifiedTime = uint2(413, 1582843849);
-	AssetDependencies = {
-		"Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri",
-	};
-	IndexedFileSize = 2940;
-	Dirty = true;
-	IndexedFileVersion = "2.5.2.63604";
-}
-CEditorAssetEntryEffect	$A11A59A6
-{
-	Filename = "Core.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641719);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$DD2B8661
-{
-	Filename = "Dynamics.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641748);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$1A488438
-{
-	Filename = "Events.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641708);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$42F2DB5B
-{
-	Filename = "Samplers.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1584314434);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
 }
 CEditorAssetEntryTexture	$55F99FBA
 {
@@ -13768,45 +13644,17 @@ CEditorTemplatePinEntry	$57BDB692
 CEditorAssetEntryEffect	$74AE6FBD
 {
 	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1595587162);
-	IndexedFileSize = 12994;
+	InternalIndexedLastModifiedTime = uint2(413, 1679980799);
+	IndexedFileSize = 14963;
 	Dirty = true;
 	IndexedFileVersion = "2.5.2.63604";
 	IndexedTemplates = {
 		"$D7AC40A1",
 		"$55C678A9",
 	};
-}
-CEditorAssetEntryDir	$CED2BAC4
-{
-	Filename = "Wiselen";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641752);
-	Assets = {
-		"$3C429AE6",
-	};
-}
-CEditorAssetEntryEffect	$35B2CED7
-{
-	Filename = "Warcraft_3_FX_Simple.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1585652420);
-	AssetDependencies = {
-		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
-		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
-		"Popcorn/Library/PopcornFXCore/Templates/Events.pkfx",
-		"Popcorn/Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds",
-		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
-	};
-	IndexedFileSize = 13891;
-	Dirty = true;
-	IndexedFileVersion = "2.5.2.63604";
-}
-CEditorAssetEntryEffect	$3C429AE6
-{
-	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1595641752);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
+	GlobalTemplatesData = 2;
+	NodeGraphCountData = 2;
+	LanguagesData = "eng";
 }
 CEditorTemplateEntry	$D7AC40A1
 {
@@ -13899,4 +13747,1017 @@ CEditorTemplatePinEntry	$4A82CA62
 	ObjectUID = -954555872;
 	PinName = "EmissionRate";
 	DataType = 9;
+}
+CEditorAssetEntryDir	$382772C1
+{
+	Filename = ".git";
+	InternalIndexedLastModifiedTime = uint2(413, 1679774108);
+	Assets = {
+		"$D2A2B818",
+		"$7ADD2CBB",
+		"$BDFF9C9A",
+		"$A267323F",
+		"$D2167DF8",
+	};
+}
+CEditorAssetEntryDir	$D2A2B818
+{
+	Filename = "hooks";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431297);
+}
+CEditorAssetEntryDir	$7ADD2CBB
+{
+	Filename = "info";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431298);
+}
+CEditorAssetEntryDir	$BDFF9C9A
+{
+	Filename = "refs";
+	InternalIndexedLastModifiedTime = uint2(413, 1601435105);
+	Assets = {
+		"$83EBCA65",
+		"$E060568C",
+		"$87BCC2C5",
+	};
+}
+CEditorAssetEntryDir	$83EBCA65
+{
+	Filename = "heads";
+	InternalIndexedLastModifiedTime = uint2(413, 1675971968);
+}
+CEditorAssetEntryDir	$E060568C
+{
+	Filename = "tags";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431299);
+}
+CEditorAssetEntryDir	$A267323F
+{
+	Filename = "objects";
+	InternalIndexedLastModifiedTime = uint2(413, 1675971984);
+	Assets = {
+		"$1F5B8E6E",
+		"$D95EF6C9",
+		"$9D1708C0",
+		"$39D1F683",
+		"$7973C602",
+		"$873CFBED",
+		"$147122B4",
+		"$4A2C5D87",
+		"$854EF756",
+		"$C6F89DD1",
+		"$63B6B868",
+		"$1B960B4B",
+		"$6BF3966A",
+		"$BE1F6075",
+		"$65019DDC",
+		"$E68363CF",
+		"$EEFBD73E",
+		"$C87D87D9",
+		"$F2316710",
+		"$17C18B13",
+		"$3AE9ADD2",
+		"$CF0217FD",
+		"$D39F6804",
+		"$CB3A6517",
+		"$D73ACE26",
+		"$2F62D4E1",
+		"$2E92B4B8",
+		"$E17895DB",
+		"$E83CAC3A",
+		"$78804285",
+		"$0774212C",
+		"$D3EB815F",
+		"$B6A07C0E",
+		"$FF89A4E9",
+		"$2BC24160",
+		"$2BEB4BA3",
+		"$30CF31A2",
+		"$11E1000D",
+		"$97C56954",
+		"$407CD8A7",
+		"$D9FD80F6",
+		"$47BF17F1",
+		"$2C03AD08",
+		"$9ED5CC6B",
+		"$5AFFDE0A",
+		"$3B977095",
+		"$4674E07C",
+		"$41A08AEF",
+		"$A8DE7CDE",
+		"$AA3C4DF9",
+		"$937697B0",
+		"$7B003833",
+		"$75295172",
+		"$BFC2B41D",
+		"$2A8026A4",
+		"$3554B837",
+		"$5C0C0FC6",
+		"$15266701",
+		"$CA96A158",
+		"$EEBEAEFB",
+		"$04222BDA",
+		"$A2ADEAA5",
+		"$CA80DBCC",
+		"$9363807F",
+		"$240AD9AE",
+		"$AB0E8309",
+		"$10BB6A00",
+		"$1A7150C3",
+		"$21BD0D42",
+		"$6350342D",
+		"$272C9FF4",
+		"$89E303C7",
+		"$BF9B7A96",
+		"$DB71C211",
+		"$3E9891A8",
+		"$C5043D8B",
+		"$0B4895AA",
+		"$6BCCB0B5",
+		"$B5D5131C",
+		"$49B5620F",
+		"$823A927E",
+		"$AB394419",
+		"$78BDB850",
+		"$C06F9553",
+		"$200F6512",
+		"$B1F2803D",
+		"$4AE7D544",
+		"$0308BB57",
+		"$CAA0C166",
+		"$2D3A2921",
+		"$D03359D5",
+		"$C01E62BC",
+		"$9D2B1A2F",
+		"$55289D1E",
+		"$EC84D339",
+		"$2BBAE5F0",
+		"$14978373",
+		"$22B8D14F",
+		"$6C5BA959",
+		"$9C42C17D",
+		"$AFB08F84",
+		"$E406E297",
+		"$A11A59A6",
+		"$DD2B8661",
+		"$1A488438",
+		"$42F2DB5B",
+		"$CED2BAC4",
+		"$35B2CED7",
+		"$3C429AE6",
+	};
+}
+CEditorAssetEntryDir	$1F5B8E6E
+{
+	Filename = "pack";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431307);
+}
+CEditorAssetEntryDir	$D95EF6C9
+{
+	Filename = "info";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431307);
+}
+CEditorAssetEntryDir	$9D1708C0
+{
+	Filename = "1d";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431589);
+}
+CEditorAssetEntryDir	$39D1F683
+{
+	Filename = "b9";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431469);
+}
+CEditorAssetEntryDir	$7973C602
+{
+	Filename = "8c";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431472);
+}
+CEditorAssetEntryDir	$873CFBED
+{
+	Filename = "4b";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431476);
+}
+CEditorAssetEntryDir	$147122B4
+{
+	Filename = "0a";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431683);
+}
+CEditorAssetEntryDir	$4A2C5D87
+{
+	Filename = "e6";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431571);
+}
+CEditorAssetEntryDir	$854EF756
+{
+	Filename = "4a";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431487);
+}
+CEditorAssetEntryDir	$C6F89DD1
+{
+	Filename = "af";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431489);
+}
+CEditorAssetEntryDir	$63B6B868
+{
+	Filename = "60";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431493);
+}
+CEditorAssetEntryDir	$1B960B4B
+{
+	Filename = "76";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431495);
+}
+CEditorAssetEntryDir	$6BF3966A
+{
+	Filename = "37";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431771);
+}
+CEditorAssetEntryDir	$BE1F6075
+{
+	Filename = "ab";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431500);
+}
+CEditorAssetEntryDir	$65019DDC
+{
+	Filename = "a7";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431503);
+}
+CEditorAssetEntryDir	$E68363CF
+{
+	Filename = "1e";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431505);
+}
+CEditorAssetEntryDir	$EEFBD73E
+{
+	Filename = "8d";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431507);
+}
+CEditorAssetEntryDir	$C87D87D9
+{
+	Filename = "ee";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431508);
+}
+CEditorAssetEntryDir	$F2316710
+{
+	Filename = "45";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431511);
+}
+CEditorAssetEntryDir	$17C18B13
+{
+	Filename = "d5";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431513);
+}
+CEditorAssetEntryDir	$3AE9ADD2
+{
+	Filename = "75";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431514);
+}
+CEditorAssetEntryDir	$CF0217FD
+{
+	Filename = "92";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431597);
+}
+CEditorAssetEntryDir	$D39F6804
+{
+	Filename = "33";
+	InternalIndexedLastModifiedTime = uint2(413, 1675971958);
+}
+CEditorAssetEntryDir	$CB3A6517
+{
+	Filename = "6e";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431520);
+}
+CEditorAssetEntryDir	$D73ACE26
+{
+	Filename = "53";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431522);
+}
+CEditorAssetEntryDir	$2F62D4E1
+{
+	Filename = "eb";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431525);
+}
+CEditorAssetEntryDir	$2E92B4B8
+{
+	Filename = "fd";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431614);
+}
+CEditorAssetEntryDir	$E17895DB
+{
+	Filename = "5b";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431529);
+}
+CEditorAssetEntryDir	$E83CAC3A
+{
+	Filename = "06";
+	InternalIndexedLastModifiedTime = uint2(413, 1675952086);
+}
+CEditorAssetEntryDir	$78804285
+{
+	Filename = "64";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431534);
+}
+CEditorAssetEntryDir	$0774212C
+{
+	Filename = "3e";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431637);
+}
+CEditorAssetEntryDir	$D3EB815F
+{
+	Filename = "c4";
+	InternalIndexedLastModifiedTime = uint2(413, 1605727194);
+}
+CEditorAssetEntryDir	$B6A07C0E
+{
+	Filename = "94";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431540);
+}
+CEditorAssetEntryDir	$FF89A4E9
+{
+	Filename = "f9";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431544);
+}
+CEditorAssetEntryDir	$2BC24160
+{
+	Filename = "01";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431564);
+}
+CEditorAssetEntryDir	$2BEB4BA3
+{
+	Filename = "c3";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431548);
+}
+CEditorAssetEntryDir	$30CF31A2
+{
+	Filename = "c1";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431550);
+}
+CEditorAssetEntryDir	$11E1000D
+{
+	Filename = "a3";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431552);
+}
+CEditorAssetEntryDir	$97C56954
+{
+	Filename = "68";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431561);
+}
+CEditorAssetEntryDir	$407CD8A7
+{
+	Filename = "c7";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431576);
+}
+CEditorAssetEntryDir	$D9FD80F6
+{
+	Filename = "e9";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431578);
+}
+CEditorAssetEntryDir	$47BF17F1
+{
+	Filename = "ae";
+	InternalIndexedLastModifiedTime = uint2(413, 1675956600);
+}
+CEditorAssetEntryDir	$2C03AD08
+{
+	Filename = "f0";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431584);
+}
+CEditorAssetEntryDir	$9ED5CC6B
+{
+	Filename = "50";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431586);
+}
+CEditorAssetEntryDir	$5AFFDE0A
+{
+	Filename = "7d";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431626);
+}
+CEditorAssetEntryDir	$3B977095
+{
+	Filename = "42";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431593);
+}
+CEditorAssetEntryDir	$4674E07C
+{
+	Filename = "05";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431595);
+}
+CEditorAssetEntryDir	$41A08AEF
+{
+	Filename = "58";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431598);
+}
+CEditorAssetEntryDir	$A8DE7CDE
+{
+	Filename = "6a";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431600);
+}
+CEditorAssetEntryDir	$AA3C4DF9
+{
+	Filename = "b1";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431604);
+}
+CEditorAssetEntryDir	$937697B0
+{
+	Filename = "9d";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431770);
+}
+CEditorAssetEntryDir	$7B003833
+{
+	Filename = "71";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431612);
+}
+CEditorAssetEntryDir	$75295172
+{
+	Filename = "8a";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431621);
+}
+CEditorAssetEntryDir	$BFC2B41D
+{
+	Filename = "3b";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431633);
+}
+CEditorAssetEntryDir	$2A8026A4
+{
+	Filename = "bd";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431640);
+}
+CEditorAssetEntryDir	$3554B837
+{
+	Filename = "46";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431644);
+}
+CEditorAssetEntryDir	$5C0C0FC6
+{
+	Filename = "b8";
+	InternalIndexedLastModifiedTime = uint2(413, 1666494728);
+}
+CEditorAssetEntryDir	$15266701
+{
+	Filename = "e5";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431655);
+}
+CEditorAssetEntryDir	$CA96A158
+{
+	Filename = "ea";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431658);
+}
+CEditorAssetEntryDir	$EEBEAEFB
+{
+	Filename = "9c";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431764);
+}
+CEditorAssetEntryDir	$04222BDA
+{
+	Filename = "07";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431661);
+}
+CEditorAssetEntryDir	$A2ADEAA5
+{
+	Filename = "72";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431663);
+}
+CEditorAssetEntryDir	$CA80DBCC
+{
+	Filename = "c9";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431665);
+}
+CEditorAssetEntryDir	$9363807F
+{
+	Filename = "1b";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431667);
+}
+CEditorAssetEntryDir	$240AD9AE
+{
+	Filename = "0b";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431669);
+}
+CEditorAssetEntryDir	$AB0E8309
+{
+	Filename = "5a";
+	InternalIndexedLastModifiedTime = uint2(413, 1666524161);
+}
+CEditorAssetEntryDir	$10BB6A00
+{
+	Filename = "8f";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431673);
+}
+CEditorAssetEntryDir	$1A7150C3
+{
+	Filename = "6b";
+	InternalIndexedLastModifiedTime = uint2(413, 1645586108);
+}
+CEditorAssetEntryDir	$21BD0D42
+{
+	Filename = "14";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431679);
+}
+CEditorAssetEntryDir	$6350342D
+{
+	Filename = "b7";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431681);
+}
+CEditorAssetEntryDir	$272C9FF4
+{
+	Filename = "c8";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431685);
+}
+CEditorAssetEntryDir	$89E303C7
+{
+	Filename = "7c";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431767);
+}
+CEditorAssetEntryDir	$BF9B7A96
+{
+	Filename = "fa";
+	InternalIndexedLastModifiedTime = uint2(413, 1666492309);
+}
+CEditorAssetEntryDir	$DB71C211
+{
+	Filename = "cb";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431740);
+}
+CEditorAssetEntryDir	$3E9891A8
+{
+	Filename = "44";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431742);
+}
+CEditorAssetEntryDir	$C5043D8B
+{
+	Filename = "12";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431744);
+}
+CEditorAssetEntryDir	$0B4895AA
+{
+	Filename = "a5";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431746);
+}
+CEditorAssetEntryDir	$6BCCB0B5
+{
+	Filename = "e7";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431747);
+}
+CEditorAssetEntryDir	$B5D5131C
+{
+	Filename = "b4";
+	InternalIndexedLastModifiedTime = uint2(413, 1666493595);
+}
+CEditorAssetEntryDir	$49B5620F
+{
+	Filename = "1c";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431750);
+}
+CEditorAssetEntryDir	$823A927E
+{
+	Filename = "ed";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431752);
+}
+CEditorAssetEntryDir	$AB394419
+{
+	Filename = "dd";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431754);
+}
+CEditorAssetEntryDir	$78BDB850
+{
+	Filename = "55";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431755);
+}
+CEditorAssetEntryDir	$C06F9553
+{
+	Filename = "84";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431757);
+}
+CEditorAssetEntryDir	$200F6512
+{
+	Filename = "74";
+	InternalIndexedLastModifiedTime = uint2(413, 1645587492);
+}
+CEditorAssetEntryDir	$B1F2803D
+{
+	Filename = "ca";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431761);
+}
+CEditorAssetEntryDir	$4AE7D544
+{
+	Filename = "f3";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431763);
+}
+CEditorAssetEntryDir	$0308BB57
+{
+	Filename = "fb";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431766);
+}
+CEditorAssetEntryDir	$CAA0C166
+{
+	Filename = "29";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431769);
+}
+CEditorAssetEntryDir	$2D3A2921
+{
+	Filename = "0e";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431776);
+}
+CEditorAssetEntryDir	$D2167DF8
+{
+	Filename = "logs";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431779);
+	Assets = {
+		"$FE37781B",
+	};
+}
+CEditorAssetEntryDir	$FE37781B
+{
+	Filename = "refs";
+	InternalIndexedLastModifiedTime = uint2(413, 1601435107);
+	Assets = {
+		"$4FD81B7A",
+		"$91D72F9F",
+	};
+}
+CEditorAssetEntryDir	$4FD81B7A
+{
+	Filename = "heads";
+	InternalIndexedLastModifiedTime = uint2(413, 1601431779);
+}
+CEditorAssetEntryDir	$87BCC2C5
+{
+	Filename = "remotes";
+	InternalIndexedLastModifiedTime = uint2(413, 1601435105);
+	Assets = {
+		"$F46E866C",
+	};
+}
+CEditorAssetEntryDir	$F46E866C
+{
+	Filename = "origin";
+	InternalIndexedLastModifiedTime = uint2(413, 1675974163);
+}
+CEditorAssetEntryDir	$91D72F9F
+{
+	Filename = "remotes";
+	InternalIndexedLastModifiedTime = uint2(413, 1601435107);
+	Assets = {
+		"$E942A74E",
+	};
+}
+CEditorAssetEntryDir	$E942A74E
+{
+	Filename = "origin";
+	InternalIndexedLastModifiedTime = uint2(413, 1601435107);
+}
+CEditorAssetEntryDir	$D03359D5
+{
+	Filename = "04";
+	InternalIndexedLastModifiedTime = uint2(413, 1605981987);
+}
+CEditorAssetEntryDir	$C01E62BC
+{
+	Filename = "2b";
+	InternalIndexedLastModifiedTime = uint2(413, 1645594559);
+}
+CEditorAssetEntryDir	$9D2B1A2F
+{
+	Filename = "30";
+	InternalIndexedLastModifiedTime = uint2(413, 1666524165);
+}
+CEditorAssetEntryDir	$55289D1E
+{
+	Filename = "3c";
+	InternalIndexedLastModifiedTime = uint2(413, 1662491347);
+}
+CEditorAssetEntryDir	$EC84D339
+{
+	Filename = "40";
+	InternalIndexedLastModifiedTime = uint2(413, 1675954334);
+}
+CEditorAssetEntryDir	$2BBAE5F0
+{
+	Filename = "47";
+	InternalIndexedLastModifiedTime = uint2(413, 1605981992);
+}
+CEditorAssetEntryDir	$14978373
+{
+	Filename = "48";
+	InternalIndexedLastModifiedTime = uint2(413, 1638723463);
+}
+CEditorAssetEntryDir	$22B8D14F
+{
+	Filename = "4c";
+	InternalIndexedLastModifiedTime = uint2(413, 1675955774);
+}
+CEditorAssetEntryDir	$6C5BA959
+{
+	Filename = "59";
+	InternalIndexedLastModifiedTime = uint2(413, 1638709962);
+}
+CEditorAssetEntryDir	$9C42C17D
+{
+	Filename = "5c";
+	InternalIndexedLastModifiedTime = uint2(413, 1662507226);
+}
+CEditorAssetEntryDir	$AFB08F84
+{
+	Filename = "79";
+	InternalIndexedLastModifiedTime = uint2(413, 1645594555);
+}
+CEditorAssetEntryDir	$E406E297
+{
+	Filename = "88";
+	InternalIndexedLastModifiedTime = uint2(413, 1638714790);
+}
+CEditorAssetEntryDir	$A11A59A6
+{
+	Filename = "93";
+	InternalIndexedLastModifiedTime = uint2(413, 1675953350);
+}
+CEditorAssetEntryDir	$DD2B8661
+{
+	Filename = "95";
+	InternalIndexedLastModifiedTime = uint2(413, 1605727197);
+}
+CEditorAssetEntryDir	$1A488438
+{
+	Filename = "97";
+	InternalIndexedLastModifiedTime = uint2(413, 1675950123);
+}
+CEditorAssetEntryDir	$42F2DB5B
+{
+	Filename = "a2";
+	InternalIndexedLastModifiedTime = uint2(413, 1605727196);
+}
+CEditorAssetEntryDir	$CED2BAC4
+{
+	Filename = "b6";
+	InternalIndexedLastModifiedTime = uint2(413, 1675971960);
+}
+CEditorAssetEntryDir	$35B2CED7
+{
+	Filename = "cf";
+	InternalIndexedLastModifiedTime = uint2(413, 1675971966);
+}
+CEditorAssetEntryDir	$3C429AE6
+{
+	Filename = "e2";
+	InternalIndexedLastModifiedTime = uint2(413, 1638723468);
+}
+CEditorAssetEntryDir	$4F1C27CD
+{
+	Filename = "SharedFX";
+	InternalIndexedLastModifiedTime = uint2(413, 1598558631);
+}
+CEditorAssetEntryDir	$B747CC14
+{
+	Filename = "Popcorn";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615361);
+	Assets = {
+		"$3EE99267",
+	};
+}
+CEditorAssetEntryDir	$3EE99267
+{
+	Filename = "Library";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615424);
+	Assets = {
+		"$A849B3C8",
+		"$D4934B3C",
+	};
+}
+CEditorAssetEntryDir	$A849B3C8
+{
+	Filename = "PopcornFXCore";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615363);
+	Assets = {
+		"$65BCFA2B",
+		"$441C8055",
+	};
+}
+CEditorAssetEntryDir	$65BCFA2B
+{
+	Filename = "Materials";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615412);
+	Assets = {
+		"$FDFBBECA",
+		"$30862670",
+	};
+}
+CEditorAssetEntryDir	$FDFBBECA
+{
+	Filename = "DefaultTextures";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615412);
+	Assets = {
+		"$AD34F1B9",
+	};
+}
+CEditorAssetEntryDir	$441C8055
+{
+	Filename = "Templates";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615423);
+	Assets = {
+		"$0E2B8DF3",
+		"$02287A32",
+		"$D568ABDD",
+	};
+}
+CEditorAssetEntryDir	$D4934B3C
+{
+	Filename = "Wiselen";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615424);
+	Assets = {
+		"$125D9964",
+	};
+}
+CEditorAssetEntryDir	$2D55ECAF
+{
+	Filename = "SharedFX";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615357);
+	Assets = {
+		"$F6B1C1F7",
+	};
+}
+CEditorAssetEntryDir	$70EAA19E
+{
+	Filename = "SharedFX";
+	InternalIndexedLastModifiedTime = uint2(413, 1679395811);
+	Assets = {
+		"$2A0720D5",
+	};
+}
+CEditorAssetEntryTexture	$AD34F1B9
+{
+	Filename = "Diffuse.dds";
+	InternalIndexedLastModifiedTime = uint2(413, 1596994017);
+	IndexedFileSize = 5616;
+	Dirty = true;
+}
+CEditorAssetEntryFeatureSet	$30862670
+{
+	Filename = "Default_Billboard.pkma";
+	InternalIndexedLastModifiedTime = uint2(413, 1582843849);
+	AssetDependencies = {
+		"Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri",
+	};
+	IndexedFileSize = 2940;
+	Dirty = true;
+	IndexedFileVersion = "2.5.2.63604";
+}
+CEditorAssetEntryEffect	$0E2B8DF3
+{
+	Filename = "Core.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615423);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+}
+CEditorAssetEntryEffect	$02287A32
+{
+	Filename = "Dynamics.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615395);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+}
+CEditorAssetEntryEffect	$D568ABDD
+{
+	Filename = "Events.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615411);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+}
+CEditorAssetEntryEffect	$125D9964
+{
+	Filename = "War3.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615424);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+}
+CEditorAssetEntryEffect	$F6B1C1F7
+{
+	Filename = "Warcraft_3_FX_Simple.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679615357);
+	IndexedFileSize = 18668;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+}
+CEditorAssetEntryEffect	$D984FC86
+{
+	Filename = "War4.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679356715);
+	IndexedFileSize = 8820;
+	Dirty = true;
+	IndexedFileVersion = "2.5.2.63604";
+	IndexedTemplates = {
+		"$2AB59129",
+		"$FBD89C31",
+	};
+}
+CEditorTemplateEntry	$2AB59129
+{
+	CustomName = "War3Game";
+	ClassType = Sampler;
+	Description = {
+		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
+	};
+	Public = true;
+	ObjectUID = -326839495;
+	OutputTypes = {
+		"$DE6A82A0",
+		"$53EC05E3",
+		"$F96558E2",
+		"$9BD2984D",
+		"$C48EC694",
+		"$DA66DEE7",
+		"$76D0E436",
+	};
+}
+CEditorTemplatePinEntry	$DE6A82A0
+{
+	ObjectUID = 1105571815;
+	PinName = "Game.LifespanMultiplier";
+	DataType = 9;
+}
+CEditorTemplatePinEntry	$53EC05E3
+{
+	ObjectUID = 1598349227;
+	PinName = "Game.EmissionRateMultiplier";
+	DataType = 9;
+}
+CEditorTemplatePinEntry	$F96558E2
+{
+	ObjectUID = -1658119633;
+	PinName = "Game.SpeedMultiplier";
+	DataType = 9;
+}
+CEditorTemplatePinEntry	$9BD2984D
+{
+	ObjectUID = -1981751886;
+	PinName = "Game.ColorMultiplier";
+	DataType = 12;
+}
+CEditorTemplatePinEntry	$C48EC694
+{
+	ObjectUID = 2024228870;
+	PinName = "Game.TeamColor";
+	DataType = 12;
+}
+CEditorTemplatePinEntry	$DA66DEE7
+{
+	ObjectUID = 800525836;
+	PinName = "Game.TargetPosition";
+	DataType = 11;
+}
+CEditorTemplatePinEntry	$76D0E436
+{
+	ObjectUID = -1767724492;
+	PinName = "Game.Scale";
+	DataType = 9;
+}
+CEditorTemplateEntry	$FBD89C31
+{
+	CustomName = "War3Weather";
+	ClassType = Sampler;
+	Description = {
+		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
+	};
+	Public = true;
+	ObjectUID = 317676193;
+	OutputTypes = {
+		"$34DD6648",
+		"$EFA95EAB",
+		"$38F5BD4A",
+	};
+}
+CEditorTemplatePinEntry	$34DD6648
+{
+	ObjectUID = -1901139992;
+	PinName = "Weather.TileCenter";
+	DataType = 11;
+}
+CEditorTemplatePinEntry	$EFA95EAB
+{
+	ObjectUID = -1426124098;
+	PinName = "Weather.Size";
+	DataType = 10;
+}
+CEditorTemplatePinEntry	$38F5BD4A
+{
+	ObjectUID = 1514361170;
+	PinName = "Weather.EmissionRate";
+	DataType = 9;
+}
+CEditorAssetEntryEffect	$2A0720D5
+{
+	Filename = "Warcraft_3_FX_Simple.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1679395811);
+	AssetDependencies = {
+		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
+		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
+		"Popcorn/Library/PopcornFXCore/Templates/Events.pkfx",
+		"Popcorn/Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds",
+		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
+		"Popcorn/Library/Wiselen/War3.pkfx",
+	};
+	IndexedFileSize = 16360;
+	Dirty = true;
+	IndexedFileVersion = "2.5.2.63604";
 }

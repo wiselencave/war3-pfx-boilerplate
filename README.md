@@ -62,9 +62,10 @@ Baking is also possible via the CLI tool `PopcornAssetBaker.exe` for more advanc
 
 ## Links
 
-- [PopcornFX Documentation (v2.5)](https://documentation.popcornfx.com/PopcornFX/v2.5/index.html)
 - [Download PopcornFX Editor v2.5](https://wiki.popcornfx.com/index.php?title=PK-Editor_v2.5)
-- [PopcornFX Basics for Reforged (Hive Workshop)](https://www.hiveworkshop.com/threads/popcornfx-basics.353681/)
+- [PopcornFX Documentation (v2.5)](https://documentation.popcornfx.com/PopcornFX/v2.5/index.html)
+- [Tutorials: PopcornFX v2 - Beginners (YouTube)](https://www.youtube.com/playlist?list=PLcNLffz-XEF9q19-Rxs5eahGVf-HiWOZa)
+- [PopcornFX Basics for Reforged (HIVE)](https://www.hiveworkshop.com/threads/popcornfx-basics.353681/)
 
 ## License
  

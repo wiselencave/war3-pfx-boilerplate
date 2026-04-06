@@ -18,25 +18,27 @@ Two public templates in `Library/Wiselen/` provide commonly used Reforged runtim
 
 ### War3Game
 
-| Attribute | Type |
+| Output pin | Type |
 |---|---|
-| Game.LifespanMultiplier | float |
-| Game.EmissionRateMultiplier | float |
-| Game.SpeedMultiplier | float |
-| Game.ColorMultiplier | float4 |
-| Game.TeamColor | float4 |
-| Game.TargetPosition | float3 |
-| Game.Scale | float |
+| LifespanMultiplier | float |
+| EmissionRateMultiplier | float |
+| SpeedMultiplier | float |
+| ColorMultiplier | float4 |
+| TeamColor | float4 |
+| TargetPosition | float3 |
+| Scale | float |
 
 ### War3Weather
 
-| Attribute | Type |
+| Output pin | Type |
 |---|---|
-| Weather.TileCenter | float3 |
-| Weather.Size | float2 |
-| Weather.EmissionRate | float |
+| TileCenter | float3 |
+| Size | float2 |
+| EmissionRate | float |
 
-To use them, add the `War3Game` or `War3Weather` node to any effect's particle graph. The attributes will automatically appear in the Effect Interface.
+To use them, add the `War3Game` or `War3Weather` node to your effect's particle graph and wire the output pins into your nodes. The attributes will automatically appear in the Effect Interface.
+
+Detailed documentation on how these attributes map to Reforged's runtime (MDX tracks, engine behavior, etc.) will be available separately.
 
 ## Quick start
 
@@ -61,4 +63,5 @@ Baking is also possible via the CLI tool `PopcornAssetBaker.exe` for more advanc
 ## Links
 
 - [PopcornFX Documentation (v2.5)](https://documentation.popcornfx.com/PopcornFX/v2.5/index.html)
+- [Download PopcornFX Editor v2.5](https://wiki.popcornfx.com/index.php?title=PK-Editor_v2.5)
 - [PopcornFX Basics for Reforged (Hive Workshop)](https://www.hiveworkshop.com/threads/popcornfx-basics.353681/)

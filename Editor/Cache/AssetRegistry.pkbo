@@ -3,7 +3,7 @@ CEditorAssetRegistry	$D857A09F
 {
 	RootDir = "$35A36C4E";
 	FakeNodeRoot = "$4B933A29";
-	CB_CurrentDir = "Popcorn/Library/Wiselen";
+	CB_CurrentDir = "SharedFX";
 	LastResourceDialogPath = "F:/wc3_projects/reforgedPopcornFX";
 	RegistryVersion = 11;
 }
@@ -44,7 +44,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, 1680017111);
+	InternalIndexedLastModifiedTime = uint2(413, 1687492584);
 	Assets = {
 		"$D279714D",
 	};
@@ -88,12 +88,12 @@ CEditorAssetEntryDir	$2909A531
 CEditorAssetEntryDir	$D806D24A
 {
 	Filename = "map.w3x";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615361);
+	InternalIndexedLastModifiedTime = uint2(413, 1682366106);
 	Assets = {
 		"$89E0DDB2",
 		"$AF0F155D",
+		"$D6EEA348",
 		"$B747CC14",
-		"$2D55ECAF",
 	};
 }
 CEditorAssetEntryDir	$89E0DDB2
@@ -119,7 +119,6 @@ CEditorAssetEntryDir	$AF0F155D
 		"$E54029EE",
 		"$5209F849",
 	};
-	CB_Expanded = true;
 }
 CEditorAssetEntryDir	$DBE780E4
 {
@@ -288,10 +287,9 @@ CEditorAssetEntryDir	$17E22F51
 CEditorAssetEntryDir	$8EAEE7E8
 {
 	Filename = "Wiselen";
-	InternalIndexedLastModifiedTime = uint2(413, 1679980800);
+	InternalIndexedLastModifiedTime = uint2(413, 1680424395);
 	Assets = {
 		"$74AE6FBD",
-		"$D984FC86",
 	};
 	CB_Expanded = true;
 }
@@ -13644,9 +13642,8 @@ CEditorTemplatePinEntry	$57BDB692
 CEditorAssetEntryEffect	$74AE6FBD
 {
 	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679980799);
-	IndexedFileSize = 14963;
-	Dirty = true;
+	InternalIndexedLastModifiedTime = uint2(413, 1680424395);
+	IndexedFileSize = 15007;
 	IndexedFileVersion = "2.5.2.63604";
 	IndexedTemplates = {
 		"$D7AC40A1",
@@ -13659,6 +13656,7 @@ CEditorAssetEntryEffect	$74AE6FBD
 CEditorTemplateEntry	$D7AC40A1
 {
 	CustomName = "War3Game";
+	ClassType = Sampler;
 	Description = {
 		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
 	};
@@ -13719,6 +13717,7 @@ CEditorTemplatePinEntry	$989410CE
 CEditorTemplateEntry	$55C678A9
 {
 	CustomName = "War3Weather";
+	ClassType = Sampler;
 	Description = {
 		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
 	};
@@ -13751,7 +13750,7 @@ CEditorTemplatePinEntry	$4A82CA62
 CEditorAssetEntryDir	$382772C1
 {
 	Filename = ".git";
-	InternalIndexedLastModifiedTime = uint2(413, 1679774108);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492411);
 	Assets = {
 		"$D2A2B818",
 		"$7ADD2CBB",
@@ -13783,7 +13782,7 @@ CEditorAssetEntryDir	$BDFF9C9A
 CEditorAssetEntryDir	$83EBCA65
 {
 	Filename = "heads";
-	InternalIndexedLastModifiedTime = uint2(413, 1675971968);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492411);
 }
 CEditorAssetEntryDir	$E060568C
 {
@@ -13793,7 +13792,7 @@ CEditorAssetEntryDir	$E060568C
 CEditorAssetEntryDir	$A267323F
 {
 	Filename = "objects";
-	InternalIndexedLastModifiedTime = uint2(413, 1675971984);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492426);
 	Assets = {
 		"$1F5B8E6E",
 		"$D95EF6C9",
@@ -13904,6 +13903,16 @@ CEditorAssetEntryDir	$A267323F
 		"$CED2BAC4",
 		"$35B2CED7",
 		"$3C429AE6",
+		"$02287A32",
+		"$D568ABDD",
+		"$125D9964",
+		"$F6B1C1F7",
+		"$D984FC86",
+		"$8C0A35BC",
+		"$D5C9E92F",
+		"$1AB8181E",
+		"$903C6A39",
+		"$E26EC8F0",
 	};
 }
 CEditorAssetEntryDir	$1F5B8E6E
@@ -13964,7 +13973,7 @@ CEditorAssetEntryDir	$63B6B868
 CEditorAssetEntryDir	$1B960B4B
 {
 	Filename = "76";
-	InternalIndexedLastModifiedTime = uint2(413, 1601431495);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492394);
 }
 CEditorAssetEntryDir	$6BF3966A
 {
@@ -13989,7 +13998,7 @@ CEditorAssetEntryDir	$E68363CF
 CEditorAssetEntryDir	$EEFBD73E
 {
 	Filename = "8d";
-	InternalIndexedLastModifiedTime = uint2(413, 1601431507);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492387);
 }
 CEditorAssetEntryDir	$C87D87D9
 {
@@ -14184,7 +14193,7 @@ CEditorAssetEntryDir	$2A8026A4
 CEditorAssetEntryDir	$3554B837
 {
 	Filename = "46";
-	InternalIndexedLastModifiedTime = uint2(413, 1601431644);
+	InternalIndexedLastModifiedTime = uint2(413, 1681476264);
 }
 CEditorAssetEntryDir	$5C0C0FC6
 {
@@ -14224,7 +14233,7 @@ CEditorAssetEntryDir	$CA80DBCC
 CEditorAssetEntryDir	$9363807F
 {
 	Filename = "1b";
-	InternalIndexedLastModifiedTime = uint2(413, 1601431667);
+	InternalIndexedLastModifiedTime = uint2(413, 1681476268);
 }
 CEditorAssetEntryDir	$240AD9AE
 {
@@ -14279,7 +14288,7 @@ CEditorAssetEntryDir	$DB71C211
 CEditorAssetEntryDir	$3E9891A8
 {
 	Filename = "44";
-	InternalIndexedLastModifiedTime = uint2(413, 1601431742);
+	InternalIndexedLastModifiedTime = uint2(413, 1681476271);
 }
 CEditorAssetEntryDir	$C5043D8B
 {
@@ -14299,7 +14308,7 @@ CEditorAssetEntryDir	$6BCCB0B5
 CEditorAssetEntryDir	$B5D5131C
 {
 	Filename = "b4";
-	InternalIndexedLastModifiedTime = uint2(413, 1666493595);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492397);
 }
 CEditorAssetEntryDir	$49B5620F
 {
@@ -14389,7 +14398,7 @@ CEditorAssetEntryDir	$87BCC2C5
 CEditorAssetEntryDir	$F46E866C
 {
 	Filename = "origin";
-	InternalIndexedLastModifiedTime = uint2(413, 1675974163);
+	InternalIndexedLastModifiedTime = uint2(413, 1681494751);
 }
 CEditorAssetEntryDir	$91D72F9F
 {
@@ -14407,7 +14416,7 @@ CEditorAssetEntryDir	$E942A74E
 CEditorAssetEntryDir	$D03359D5
 {
 	Filename = "04";
-	InternalIndexedLastModifiedTime = uint2(413, 1605981987);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492400);
 }
 CEditorAssetEntryDir	$C01E62BC
 {
@@ -14492,7 +14501,7 @@ CEditorAssetEntryDir	$CED2BAC4
 CEditorAssetEntryDir	$35B2CED7
 {
 	Filename = "cf";
-	InternalIndexedLastModifiedTime = uint2(413, 1675971966);
+	InternalIndexedLastModifiedTime = uint2(413, 1681492398);
 }
 CEditorAssetEntryDir	$3C429AE6
 {
@@ -14502,154 +14511,16 @@ CEditorAssetEntryDir	$3C429AE6
 CEditorAssetEntryDir	$4F1C27CD
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 1598558631);
-}
-CEditorAssetEntryDir	$B747CC14
-{
-	Filename = "Popcorn";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615361);
-	Assets = {
-		"$3EE99267",
-	};
-}
-CEditorAssetEntryDir	$3EE99267
-{
-	Filename = "Library";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615424);
-	Assets = {
-		"$A849B3C8",
-		"$D4934B3C",
-	};
-}
-CEditorAssetEntryDir	$A849B3C8
-{
-	Filename = "PopcornFXCore";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615363);
-	Assets = {
-		"$65BCFA2B",
-		"$441C8055",
-	};
-}
-CEditorAssetEntryDir	$65BCFA2B
-{
-	Filename = "Materials";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615412);
-	Assets = {
-		"$FDFBBECA",
-		"$30862670",
-	};
-}
-CEditorAssetEntryDir	$FDFBBECA
-{
-	Filename = "DefaultTextures";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615412);
-	Assets = {
-		"$AD34F1B9",
-	};
-}
-CEditorAssetEntryDir	$441C8055
-{
-	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615423);
-	Assets = {
-		"$0E2B8DF3",
-		"$02287A32",
-		"$D568ABDD",
-	};
-}
-CEditorAssetEntryDir	$D4934B3C
-{
-	Filename = "Wiselen";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615424);
-	Assets = {
-		"$125D9964",
-	};
-}
-CEditorAssetEntryDir	$2D55ECAF
-{
-	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615357);
-	Assets = {
-		"$F6B1C1F7",
-	};
+	InternalIndexedLastModifiedTime = uint2(413, 1682317940);
 }
 CEditorAssetEntryDir	$70EAA19E
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 1679395811);
+	InternalIndexedLastModifiedTime = uint2(413, 1682317828);
 	Assets = {
-		"$2A0720D5",
+		"$84BE73E4",
 	};
-}
-CEditorAssetEntryTexture	$AD34F1B9
-{
-	Filename = "Diffuse.dds";
-	InternalIndexedLastModifiedTime = uint2(413, 1596994017);
-	IndexedFileSize = 5616;
-	Dirty = true;
-}
-CEditorAssetEntryFeatureSet	$30862670
-{
-	Filename = "Default_Billboard.pkma";
-	InternalIndexedLastModifiedTime = uint2(413, 1582843849);
-	AssetDependencies = {
-		"Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri",
-	};
-	IndexedFileSize = 2940;
-	Dirty = true;
-	IndexedFileVersion = "2.5.2.63604";
-}
-CEditorAssetEntryEffect	$0E2B8DF3
-{
-	Filename = "Core.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615423);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$02287A32
-{
-	Filename = "Dynamics.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615395);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$D568ABDD
-{
-	Filename = "Events.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615411);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$125D9964
-{
-	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615424);
-	IndexedFileSize = 314;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$F6B1C1F7
-{
-	Filename = "Warcraft_3_FX_Simple.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679615357);
-	IndexedFileSize = 18668;
-	Dirty = true;
-	IndexedFileVersion = "0.0.0.0";
-}
-CEditorAssetEntryEffect	$D984FC86
-{
-	Filename = "War4.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679356715);
-	IndexedFileSize = 8820;
-	Dirty = true;
-	IndexedFileVersion = "2.5.2.63604";
-	IndexedTemplates = {
-		"$2AB59129",
-		"$FBD89C31",
-	};
+	CB_Expanded = true;
 }
 CEditorTemplateEntry	$2AB59129
 {
@@ -14745,10 +14616,60 @@ CEditorTemplatePinEntry	$38F5BD4A
 	PinName = "Weather.EmissionRate";
 	DataType = 9;
 }
-CEditorAssetEntryEffect	$2A0720D5
+CEditorAssetEntryDir	$02287A32
+{
+	Filename = "aa";
+	InternalIndexedLastModifiedTime = uint2(413, 1681476266);
+}
+CEditorAssetEntryDir	$D568ABDD
+{
+	Filename = "c2";
+	InternalIndexedLastModifiedTime = uint2(413, 1681476270);
+}
+CEditorAssetEntryDir	$125D9964
+{
+	Filename = "ff";
+	InternalIndexedLastModifiedTime = uint2(413, 1681476272);
+}
+CEditorAssetEntryDir	$F6B1C1F7
+{
+	Filename = "16";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492388);
+}
+CEditorAssetEntryDir	$D984FC86
+{
+	Filename = "4d";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492402);
+}
+CEditorAssetEntryDir	$8C0A35BC
+{
+	Filename = "bf";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492392);
+}
+CEditorAssetEntryDir	$D5C9E92F
+{
+	Filename = "22";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492395);
+}
+CEditorAssetEntryDir	$1AB8181E
+{
+	Filename = "a9";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492401);
+}
+CEditorAssetEntryDir	$903C6A39
+{
+	Filename = "7f";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492404);
+}
+CEditorAssetEntryDir	$E26EC8F0
+{
+	Filename = "f4";
+	InternalIndexedLastModifiedTime = uint2(413, 1681492409);
+}
+CEditorAssetEntryEffect	$84BE73E4
 {
 	Filename = "Warcraft_3_FX_Simple.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1679395811);
+	InternalIndexedLastModifiedTime = uint2(413, 1681274376);
 	AssetDependencies = {
 		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
 		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
@@ -14757,7 +14678,186 @@ CEditorAssetEntryEffect	$2A0720D5
 		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
 		"Popcorn/Library/Wiselen/War3.pkfx",
 	};
-	IndexedFileSize = 16360;
+	IndexedFileSize = 18192;
 	Dirty = true;
 	IndexedFileVersion = "2.5.2.63604";
+	LayersData = 3;
+	AttributesData = 7;
+	NodeGraphCountData = 1;
+	InstructionCountData = 162;
+	LanguagesData = "eng";
+	NodeCount_Total_Global = 330;
+	NodeCount_Template_Global = 25;
+	NodeCount_Script_Global = 16;
+	NodeCount_Arithmetic_Global = 22;
+	NodeCount_Compare_Global = 6;
+	NodeCount_Function_Global = 13;
+	NodeCount_Constant_Global = 7;
+	NodeCount_Transform_Global = 7;
+	NodeCount_Passthrough_Global = 107;
+	NodeCount_SamplerData_Global = 1;
+	NodeCount_Event_Global = 10;
+	NodeCount_Debug_Global = 2;
+	NodeCount_DuDv_Global = 3;
+	NodeCount_RendererBillboard_Global = 1;
+	ASTNodeCount_Global = 3057;
+	ASTNodeCount_Final_Global = 2391;
+	InstructionCount_RawUnoptimized_Global = 911;
+	InstructionCount_FinalSpawn_Global = 13;
+	NodeCount_Total_Max = 166;
+	NodeCount_Template_Max = 14;
+	NodeCount_Script_Max = 9;
+	NodeCount_Arithmetic_Max = 11;
+	NodeCount_Compare_Max = 5;
+	NodeCount_Function_Max = 10;
+	NodeCount_Constant_Max = 4;
+	NodeCount_Transform_Max = 5;
+	NodeCount_Passthrough_Max = 61;
+	NodeCount_SamplerData_Max = 1;
+	NodeCount_Event_Max = 10;
+	NodeCount_Debug_Max = 2;
+	NodeCount_DuDv_Max = 2;
+	NodeCount_RendererBillboard_Max = 1;
+	ASTNodeCount_Max = 1540;
+	ASTNodeCount_Final_Max = 1203;
+	InstructionCount_RawUnoptimized_Max = 462;
+	InstructionCount_FinalSpawn_Max = 11;
+	NodeStatsCountData = 2;
+}
+CEditorAssetEntryDir	$D6EEA348
+{
+	Filename = "SharedFX";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569764);
+	Assets = {
+		"$5F44DFAB",
+	};
+}
+CEditorAssetEntryEffect	$5F44DFAB
+{
+	Filename = "Warcraft_3_FX_Simple.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569764);
+	IndexedFileSize = 19800;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+	StatusData = Error;
+	MessageData = "EFailed to retrieve file version. File might be corruptedWThis asset is from an older version of PopcornFX, it might not function properly in your target engine.
+Right-click \'Upgrade Assets\', or open it and save it to update it to the current version.";
+}
+CEditorAssetEntryDir	$B747CC14
+{
+	Filename = "Popcorn";
+	Assets = {
+		"$3EE99267",
+	};
+}
+CEditorAssetEntryDir	$3EE99267
+{
+	Filename = "Library";
+	Assets = {
+		"$BCE7DDB6",
+		"$30862670",
+	};
+}
+CEditorAssetEntryDir	$BCE7DDB6
+{
+	Filename = "PopcornFXCore";
+	Assets = {
+		"$CB5653B1",
+		"$65BCFA2B",
+	};
+}
+CEditorAssetEntryDir	$CB5653B1
+{
+	Filename = "Materials";
+	InternalIndexedLastModifiedTime = uint2(413, 1582843849);
+	Assets = {
+		"$A849B3C8",
+		"$D4934B3C",
+	};
+}
+CEditorAssetEntryFeatureSet	$A849B3C8
+{
+	Filename = "Default_Billboard.pkma";
+	InternalIndexedLastModifiedTime = uint2(413, 1582843849);
+	AssetDependencies = {
+		"Popcorn/Library/PopcornFXCore/Materials/Interface/Editor.pkri",
+	};
+	IndexedFileSize = 2940;
+	IndexedFileVersion = "2.5.2.63604";
+}
+CEditorAssetEntryDir	$65BCFA2B
+{
+	Filename = "Templates";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569824);
+	Assets = {
+		"$FDFBBECA",
+		"$441C8055",
+		"$AD34F1B9",
+	};
+}
+CEditorAssetEntryEffect	$FDFBBECA
+{
+	Filename = "Dynamics.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569794);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+	StatusData = Error;
+	MessageData = "EFailed to retrieve file version. File might be corruptedWThis asset is from an older version of PopcornFX, it might not function properly in your target engine.
+Right-click \'Upgrade Assets\', or open it and save it to update it to the current version.";
+}
+CEditorAssetEntryEffect	$441C8055
+{
+	Filename = "Events.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569814);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+	StatusData = Error;
+	MessageData = "EFailed to retrieve file version. File might be corruptedWThis asset is from an older version of PopcornFX, it might not function properly in your target engine.
+Right-click \'Upgrade Assets\', or open it and save it to update it to the current version.";
+}
+CEditorAssetEntryDir	$D4934B3C
+{
+	Filename = "DefaultTextures";
+	InternalIndexedLastModifiedTime = uint2(413, 1596994017);
+	Assets = {
+		"$2D55ECAF",
+	};
+}
+CEditorAssetEntryTexture	$2D55ECAF
+{
+	Filename = "Diffuse.dds";
+	InternalIndexedLastModifiedTime = uint2(413, 1596994017);
+	IndexedFileSize = 5616;
+}
+CEditorAssetEntryEffect	$AD34F1B9
+{
+	Filename = "Core.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569824);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+	StatusData = Error;
+	MessageData = "EFailed to retrieve file version. File might be corruptedWThis asset is from an older version of PopcornFX, it might not function properly in your target engine.
+Right-click \'Upgrade Assets\', or open it and save it to update it to the current version.";
+}
+CEditorAssetEntryDir	$30862670
+{
+	Filename = "Wiselen";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569824);
+	Assets = {
+		"$0E2B8DF3",
+	};
+}
+CEditorAssetEntryEffect	$0E2B8DF3
+{
+	Filename = "War3.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1687569824);
+	IndexedFileSize = 314;
+	Dirty = true;
+	IndexedFileVersion = "0.0.0.0";
+	StatusData = Error;
+	MessageData = "EFailed to retrieve file version. File might be corruptedWThis asset is from an older version of PopcornFX, it might not function properly in your target engine.
+Right-click \'Upgrade Assets\', or open it and save it to update it to the current version.";
 }

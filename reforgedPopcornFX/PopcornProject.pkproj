@@ -23,7 +23,7 @@ CProjectSettingsGeneral	$35A36C4E
 CProjectSettingsScene	$4B933A29
 {
 	CoordinateFrame = Custom;
-	CoordinateFrameAxisX = Left;
+	CoordinateFrameAxisX = Right;
 	CoordinateFrameAxisY = Backward;
 	CoordinateFrameAxisZ = Up;
 	DistanceUnits = Meter;

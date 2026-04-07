@@ -1,4 +1,4 @@
-Version = 2.5.2.63604;
+Version = 2.5.5.64615;
 CParticleEffect	$6B70D015
 {
 	LayerGraph = "$81861AB7";
@@ -17,9 +17,12 @@ CParticleNodeGraph	$42E16C02
 		"$ED80C982",
 		"$17E22F51",
 		"$8EAEE7E8",
+		"$A913E2D6",
+		"$C45BF55C",
+		"$6C5BA959",
 	};
-	WorkspacePosition = int2(282, -58);
-	WorkspaceZoom = -4;
+	WorkspacePosition = int2(291, 24);
+	WorkspaceZoom = -5;
 }
 CEditorAssetEffect	$41EED1A4
 {
@@ -116,7 +119,7 @@ CParticleNodeSetLife	$D734A95F
 	InputPins = {
 		"$3B3DDE67",
 	};
-	WorkspacePosition = int2(-792, -264);
+	WorkspacePosition = int2(132, -286);
 }
 CParticleNodePinIn	$3B3DDE67
 {
@@ -159,7 +162,7 @@ CParticleNodeTemplate	$1838F4AE
 		"$F20FBF14",
 		"$8B66367E",
 	};
-	WorkspacePosition = int2(-308, -22);
+	WorkspacePosition = int2(-198, -44);
 	SubGraphFilePath = "Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx";
 	SubGraphName = "Physics";
 }
@@ -563,7 +566,7 @@ CParticleNodeTemplate	$4ADE8DE2
 	OutputPins = {
 		"$5F621394",
 	};
-	WorkspacePosition = int2(-792, -110);
+	WorkspacePosition = int2(-462, -132);
 	SubGraphFilePath = "Popcorn/Library/PopcornFXCore/Templates/Core.pkfx";
 	SubGraphName = "local position to world";
 }
@@ -573,6 +576,9 @@ CParticleNodePinIn	$D279714D
 	Type = float3;
 	Owner = "$4ADE8DE2";
 	BaseType = float3;
+	ConnectedPins = {
+		"$E7F879F5",
+	};
 	ValueF = float4(-0.0000000e+00, 1.0000000e+00, 0.0000000e+00, 0.0000000e+00);
 }
 CParticleNodePinOut	$5F621394
@@ -594,7 +600,7 @@ CParticleNodeTemplate	$41E5AFE7
 	OutputPins = {
 		"$2909A531",
 	};
-	WorkspacePosition = int2(-792, 22);
+	WorkspacePosition = int2(-462, 0);
 	SubGraphFilePath = "Popcorn/Library/PopcornFXCore/Templates/Core.pkfx";
 	SubGraphName = "local direction to world";
 }
@@ -776,7 +782,7 @@ CParticleNodeTemplate	$AF0F155D
 		"$B4F3323B",
 		"$1EA3501A",
 	};
-	WorkspacePosition = int2(-682, 396);
+	WorkspacePosition = int2(-484, 374);
 	SubGraphFilePath = "Popcorn/Library/Wiselen/War3.pkfx";
 	SubGraphName = "War3Game";
 }
@@ -788,7 +794,7 @@ CParticleNodeTemplate	$ED80C982
 	OutputPins = {
 		"$96A2AA34",
 	};
-	WorkspacePosition = int2(-1672, 22);
+	WorkspacePosition = int2(-1584, 154);
 	SubGraphFilePath = "Popcorn/Library/PopcornFXCore/Templates/Core.pkfx";
 	SubGraphName = "scene.axisForward";
 }
@@ -826,11 +832,11 @@ CParticleNodeAnnotation	$17E22F51
 		"@eng:Forward axis",
 	};
 	Description = {
-		"@eng:If you attach this effect to a  Warcraft unit, you can see that the particles move in the direction of its gaze.",
+		"@eng:(1, 0, 0) in Warcraft III.\\n\\nIf you attach this effect to a  Warcraft unit, you can see that the particles move in the direction of its gaze.\\n\\nWhen baking effects for a Z-up engine, the X and Y axes get swapped and inverted compared to what you set in the editor. Do not hardcode vectors like (1,0,0) for \"forward\" — they won\'t match in-game.\\nInstead, use the built-in scene axis nodes",
 	};
-	WorkspacePosition = int2(-1848, -242);
+	WorkspacePosition = int2(-1958, -462);
 	Color = float4(1.0000000e+00, 5.8823533e-02, 8.9019614e-01, 1.0000000e+00);
-	SelfSize = int2(550, 440);
+	SelfSize = int2(814, 748);
 }
 CParticleNodePinOut	$DBE780E4
 {
@@ -938,7 +944,82 @@ CParticleNodeAnnotation	$8EAEE7E8
 	Description = {
 		"@eng:The TeamColor pin is connected to the renderer, so particles are inherit the player\'s color at runtime.",
 	};
-	WorkspacePosition = int2(-1254, 220);
+	WorkspacePosition = int2(-1056, 198);
 	Color = float4(1.0000000e+00, 7.5686282e-01, 1.8039216e-01, 1.0000000e+00);
-	SelfSize = int2(924, 330);
+	SelfSize = int2(924, 286);
+}
+CParticleNodeArithmetic	$A913E2D6
+{
+	InputPins = {
+		"$125230CB",
+		"$F527E9EA",
+	};
+	OutputPins = {
+		"$E7F879F5",
+	};
+	WorkspacePosition = int2(-792, -198);
+}
+CParticleNodePinIn	$125230CB
+{
+	SelfName = "Value";
+	Owner = "$A913E2D6";
+	ConnectedPins = {
+		"$AAFF12BE",
+	};
+}
+CParticleNodePinIn	$F527E9EA
+{
+	SelfName = "ValueB";
+	Owner = "$A913E2D6";
+}
+CParticleNodePinOut	$E7F879F5
+{
+	SelfName = "Value";
+	Owner = "$A913E2D6";
+	ConnectedPins = {
+		"$D279714D",
+	};
+}
+CParticleNodeTemplate	$C45BF55C
+{
+	InputPins = {
+		"$22B8D14F",
+	};
+	OutputPins = {
+		"$AAFF12BE",
+	};
+	WorkspacePosition = int2(-1034, -440);
+	SubGraphFilePath = "Popcorn/Library/PopcornFXCore/Templates/Core.pkfx";
+	SubGraphName = "scene.axisUp";
+}
+CParticleNodePinIn	$22B8D14F
+{
+	SelfName = "Scale";
+	Type = float;
+	Visible = false;
+	Owner = "$C45BF55C";
+	BaseType = float;
+	ValueF = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleNodePinOut	$AAFF12BE
+{
+	SelfName = "AxisUp";
+	Type = float3;
+	Owner = "$C45BF55C";
+	BaseType = float3;
+	ConnectedPins = {
+		"$125230CB",
+	};
+}
+CParticleNodeAnnotation	$6C5BA959
+{
+	CustomName = {
+		"@eng:UP axis",
+	};
+	Description = {
+		"@eng:(0, 0, 1) in Warcraft III.",
+	};
+	WorkspacePosition = int2(-1078, -550);
+	Color = float4(1.0000000e+00, 7.1372551e-01, 3.9215688e-02, 1.0000000e+00);
+	SelfSize = int2(506, 242);
 }

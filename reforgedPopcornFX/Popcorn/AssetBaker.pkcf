@@ -2,7 +2,7 @@ Version = 2.5.1.63447;
 CProjectSettingsBaking    $D857A09F
 {
     PlatformSettingsList = {
-        "x64:map.w3x",
+        "x64:..\\map.w3x"
     };
     BuildVersions = {
         "PC: desktop, windows",

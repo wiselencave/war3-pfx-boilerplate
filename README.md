@@ -8,7 +8,7 @@ The project is pre-configured so you can start making effects right away without
 
 - **Relocated Library** — `Library/` moved into `Popcorn/Library/` so baked paths match Reforged's expected `Popcorn/Library/PopcornFXCore/...` structure
 - **BC3 textures** — all default `.dds` textures re-compressed to BC3 (DXT5) for Reforged compatibility
-- **Coordinate system** — the project axes coincide with the Warcraft axes *(I hope)*
+- **Coordinate system** — the project axes coincide with the Warcraft axes (not really, see [Axis convention](#axis-convention))
 - **Baking config** — minimal setup targeting a map folder, ready to use with Quick Bake
 - **Launch scripts** — `runWarcraft.bat` and `runWorldEditor.bat` for quick testing in game
 - **Attribute templates** — `War3Game` and `War3Weather` public templates with standard runtime attributes
@@ -49,6 +49,12 @@ Detailed documentation on how these attributes map to Reforged's runtime (MDX tr
 4. Add `War3Game` / `War3Weather` nodes if you need runtime attributes
 5. Use **Quick Bake** to export into the map folder
 6. Run `runWarcraft.bat` or `runWorldEditor.bat` to quick test in game
+
+## Axis convention
+ 
+When PopcornFX bakes effects for Warcraft III, the X and Y axes get swapped and inverted compared to the editor viewport. This means hardcoding vectors will not produce the expected result in-game.
+ 
+Use `scene.axisForward`, `scene.axisSide`, and `scene.axisUp` nodes instead of hardcoded vectors. These return the correct directions regardless of the axis system configuration and keep your effects axis-system independent.
 
 ## Baking
 

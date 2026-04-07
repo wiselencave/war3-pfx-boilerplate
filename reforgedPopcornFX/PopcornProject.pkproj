@@ -102,7 +102,7 @@ CProjectSettingsAssets	$4ADE8DE2
 CProjectSettingsBaking	$D279714D
 {
 	PlatformSettingsList = {
-		"x64:map.w3x",
+		"x64:..\\map.w3x",
 	};
 	BuildVersions = {
 		"PC: desktop, windows",

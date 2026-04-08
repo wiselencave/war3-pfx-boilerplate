@@ -42,7 +42,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, 1774014568);
+	InternalIndexedLastModifiedTime = uint2(413, 1848310440);
 	Assets = {
 		"$D279714D",
 	};
@@ -13658,9 +13658,9 @@ CEditorAssetEntryDir	$4F1C27CD
 CEditorAssetEntryDir	$70EAA19E
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 1682317828);
+	InternalIndexedLastModifiedTime = uint2(413, 1776753401);
 	Assets = {
-		"$84BE73E4",
+		"$D6EEA348",
 	};
 	CB_Expanded = true;
 }
@@ -13758,10 +13758,10 @@ CEditorTemplatePinEntry	$38F5BD4A
 	PinName = "Weather.EmissionRate";
 	DataType = 9;
 }
-CEditorAssetEntryEffect	$84BE73E4
+CEditorAssetEntryEffect	$D6EEA348
 {
-	Filename = "Warcraft_3_FX_Simple.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1681274376);
+	Filename = "Warcraft_3_Sample.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 1776753401);
 	AssetDependencies = {
 		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
 		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
@@ -13770,18 +13770,18 @@ CEditorAssetEntryEffect	$84BE73E4
 		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
 		"Popcorn/Library/Wiselen/War3.pkfx",
 	};
-	IndexedFileSize = 18192;
+	IndexedFileSize = 20939;
 	Dirty = true;
-	IndexedFileVersion = "2.5.2.63604";
+	IndexedFileVersion = "2.5.5.64615";
 	LayersData = 3;
 	AttributesData = 7;
 	NodeGraphCountData = 1;
 	InstructionCountData = 162;
 	LanguagesData = "eng";
-	NodeCount_Total_Global = 330;
-	NodeCount_Template_Global = 25;
-	NodeCount_Script_Global = 16;
-	NodeCount_Arithmetic_Global = 22;
+	NodeCount_Total_Global = 335;
+	NodeCount_Template_Global = 26;
+	NodeCount_Script_Global = 17;
+	NodeCount_Arithmetic_Global = 23;
 	NodeCount_Compare_Global = 6;
 	NodeCount_Function_Global = 13;
 	NodeCount_Constant_Global = 7;
@@ -13792,14 +13792,14 @@ CEditorAssetEntryEffect	$84BE73E4
 	NodeCount_Debug_Global = 2;
 	NodeCount_DuDv_Global = 3;
 	NodeCount_RendererBillboard_Global = 1;
-	ASTNodeCount_Global = 3057;
-	ASTNodeCount_Final_Global = 2391;
-	InstructionCount_RawUnoptimized_Global = 911;
+	ASTNodeCount_Global = 3103;
+	ASTNodeCount_Final_Global = 2425;
+	InstructionCount_RawUnoptimized_Global = 923;
 	InstructionCount_FinalSpawn_Global = 13;
-	NodeCount_Total_Max = 166;
-	NodeCount_Template_Max = 14;
+	NodeCount_Total_Max = 169;
+	NodeCount_Template_Max = 15;
 	NodeCount_Script_Max = 9;
-	NodeCount_Arithmetic_Max = 11;
+	NodeCount_Arithmetic_Max = 12;
 	NodeCount_Compare_Max = 5;
 	NodeCount_Function_Max = 10;
 	NodeCount_Constant_Max = 4;
@@ -13810,9 +13810,9 @@ CEditorAssetEntryEffect	$84BE73E4
 	NodeCount_Debug_Max = 2;
 	NodeCount_DuDv_Max = 2;
 	NodeCount_RendererBillboard_Max = 1;
-	ASTNodeCount_Max = 1540;
-	ASTNodeCount_Final_Max = 1203;
-	InstructionCount_RawUnoptimized_Max = 462;
+	ASTNodeCount_Max = 1586;
+	ASTNodeCount_Final_Max = 1222;
+	InstructionCount_RawUnoptimized_Max = 474;
 	InstructionCount_FinalSpawn_Max = 11;
 	NodeStatsCountData = 2;
 }

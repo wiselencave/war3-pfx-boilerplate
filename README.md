@@ -44,7 +44,7 @@ Detailed documentation on how these attributes map to Reforged's runtime (MDX tr
 ## Quick start
 
 1. Clone the repo
-2. Open the project in PK-Editor v2.5
+2. Open the "PFXReforged" project in PK-Editor v2.5
 3. Create a new effect in `SharedFX/`
 4. Add `War3Game` / `War3Weather` nodes if you need runtime attributes
 5. Use **Quick Bake** to export into the map folder

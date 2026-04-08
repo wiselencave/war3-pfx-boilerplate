@@ -56,6 +56,8 @@ When PopcornFX bakes effects for Warcraft III, the X and Y axes get swapped and 
  
 Use `scene.axisForward`, `scene.axisSide`, and `scene.axisUp` nodes instead of hardcoded vectors. These return the correct directions regardless of the axis system configuration and keep your effects axis-system independent.
 
+This applies to both directions and positions. To build an arbitrary offset, combine the axis nodes with scalar multipliers
+
 ## Baking
 
 The baking config is located at `Popcorn/AssetBaker.pkcf`. It targets `map.w3x/` — an unpacked map folder at the project root, so baked files and assets end up directly inside the map.

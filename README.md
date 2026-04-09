@@ -15,31 +15,11 @@ The project is pre-configured so you can start making effects right away without
 
 ## Attribute templates
 
-Two public templates in `Library/Wiselen/War3.pkfx` provide commonly used Reforged runtime attributes as reusable nodes:
-
-### War3Game
-
-| Output pin | Type |
-|---|---|
-| LifespanMultiplier | float |
-| EmissionRateMultiplier | float |
-| SpeedMultiplier | float |
-| ColorMultiplier | float4 |
-| TeamColor | float4 |
-| TargetPosition | float3 |
-| Scale | float |
-
-### War3Weather
-
-| Output pin | Type |
-|---|---|
-| TileCenter | float3 |
-| Size | float2 |
-| EmissionRate | float |
+Two public templates in `Library/Wiselen/War3.pkfx` provide commonly used Reforged runtime attributes as reusable nodes.
 
 To use them, add the `War3Game` or `War3Weather` node to your effect's particle graph and wire the output pins into your nodes. The attributes will automatically appear in the Effect Interface.
 
-Detailed documentation on how these attributes map to Reforged's runtime (MDX tracks, engine behavior, etc.) will be available separately.
+Detailed documentation on how these attributes map to Reforged's runtime (MDX tracks, engine behavior, etc.) will be available on [this page](https://wiselencave.github.io/war3-pfx-docs/reference/attributes/).
 
 ## Quick start
 
@@ -62,7 +42,8 @@ This applies to both directions and positions. To build an arbitrary offset, com
 
 The baking config is located at `Popcorn/AssetBaker.pkcf`. It targets `map.w3x/` — an unpacked map folder at the project root, so baked files and assets end up directly inside the map.
 
-Baking is also possible via the leaked CLI tool `PopcornAssetBaker.exe` for more advanced pipelines, but documentation for that workflow is not yet available.
+Baking is also possible via the leaked CLI tool `PopcornAssetBaker.exe` for more advanced pipelines.
+[Documentation](https://wiselencave.github.io/war3-pfx-docs/reference/assetbaker_basics/) for that workflow is in progress.
 
 ## Testing
  

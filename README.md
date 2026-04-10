@@ -62,6 +62,7 @@ Under the hood it's just `"Warcraft III.exe" -launch -loadfile "path\to\map.w3x"
 - [Download PopcornFX Editor v2.5](https://wiki.popcornfx.com/index.php?title=PK-Editor_v2.5)
 - [PopcornFX Documentation (v2.5)](https://documentation.popcornfx.com/PopcornFX/v2.5/index.html)
 - [Tutorials: PopcornFX v2 - Beginners (YouTube)](https://www.youtube.com/playlist?list=PLcNLffz-XEF9q19-Rxs5eahGVf-HiWOZa)
+- [Reforged FX. Tutorial 0: Basic Pipeline & First Bake (YouTube)](www.youtube.com/watch?v=dmr_SlTkBFM)
 - [PopcornFX Basics for Reforged (HIVE)](https://www.hiveworkshop.com/threads/popcornfx-basics.353681/)
 
 ## License

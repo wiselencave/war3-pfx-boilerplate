@@ -1,4 +1,4 @@
-Version = 2.5.2.63604;
+Version = 2.5.5.64615;
 CParticleEffect	$D857A09F
 {
 	LayerGraph = "$9154DFA0";
@@ -307,7 +307,7 @@ CParticleNodeGraph	$12EF5AA1
 		"$E7F879F5",
 		"$23F9C093",
 	};
-	WorkspacePosition = int2(235, 30);
+	WorkspacePosition = int2(277, 24);
 	WorkspaceZoom = -4;
 }
 CParticleNodeTemplateExport	$A5F2CD78
@@ -735,7 +735,7 @@ CParticleNodeAnnotation	$C01E62BC
 		"@eng:Welcome!",
 	};
 	Description = {
-		"@eng:This is a file for the War3Game and War3Weather templates. These templates will allow you to quickly integrate Warcraft III: Reforged runtime attributes into your special effects. Don\'t edit them yourself unless you clearly understand what you\'re doing!\\n\\nSee Warcraft_3_FX_Simple.pkfx for an usage example.\\n\\n",
+		"@eng:This is a file for the War3Game and War3Weather templates. These templates will allow you to quickly integrate Warcraft III: Reforged runtime attributes into your special effects. Don\'t edit them yourself unless you clearly understand what you\'re doing!\\n\\nSee Warcraft_3_Sample.pkfx for an usage example.\\n\\n",
 	};
 	WorkspacePosition = int2(-528, -352);
 	Color = float4(1.5294118e-01, 1.0000000e+00, 6.9019610e-01, 1.0000000e+00);

@@ -15,11 +15,11 @@ The project is pre-configured so you can start making effects right away without
 
 ## Attribute templates
 
-Two public templates in `Library/Wiselen/War3.pkfx` provide commonly used Reforged runtime attributes as reusable nodes.
+Two public templates in `Library/Wiselen/Templates/War3.pkfx` provide commonly used Reforged runtime attributes as reusable nodes.
 
 To use them, add the `War3Game` or `War3Weather` node to your effect's particle graph and wire the output pins into your nodes. The attributes will automatically appear in the Effect Interface.
 
-Detailed documentation on how these attributes map to Reforged's runtime (MDX tracks, engine behavior, etc.) will be available on [this page](https://wiselencave.github.io/war3-pfx-docs/reference/attributes/).
+Detailed documentation on how these attributes map to Reforged's runtime (MDX tracks, engine behavior, etc.) will be available on [this page](https://wiselencave.github.io/war3-pfx-docs/reference/attributes/) soon.
 
 ## Quick start
 
@@ -55,7 +55,7 @@ Under the hood it's just `"Warcraft III.exe" -launch -loadfile "path\to\map.w3x"
 
 - PK-Editor version **2.5.x** is required. Other versions may not be compatible with Reforged's runtime.
 - The project uses a slightly different PopcornFX build version than what ships with Reforged, but baked files still load correctly.
-- Baked `.pkfx` and `.pkb` are the same binary format. There is no need to rename the extension before importing into the game.
+- Baked `.pkfx` and `.pkb` are the same binary format. See the [extension documentation](https://wiselencave.github.io/war3-pfx-docs/reference/extensions/).
 
 ## Links
 

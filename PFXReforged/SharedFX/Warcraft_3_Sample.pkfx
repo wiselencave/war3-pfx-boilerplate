@@ -783,7 +783,7 @@ CParticleNodeTemplate	$AF0F155D
 		"$1EA3501A",
 	};
 	WorkspacePosition = int2(-484, 374);
-	SubGraphFilePath = "Popcorn/Library/Wiselen/War3.pkfx";
+	SubGraphFilePath = "Popcorn/Library/Wiselen/Templates/War3.pkfx";
 	SubGraphName = "War3Game";
 }
 CParticleNodeTemplate	$ED80C982
@@ -896,46 +896,6 @@ CParticleNodePinOut	$1EA3501A
 	Owner = "$AF0F155D";
 	BaseType = float;
 }
-CParticleAttributeDeclaration	$7837C3E5
-{
-	ExportedName = "Game.LifespanMultiplier";
-	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
-}
-CParticleAttributeDeclaration	$2FB70E0C
-{
-	ExportedName = "Game.EmissionRateMultiplier";
-	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
-}
-CParticleAttributeDeclaration	$36207FBF
-{
-	ExportedName = "Game.SpeedMultiplier";
-	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
-}
-CParticleAttributeDeclaration	$E54029EE
-{
-	ExportedName = "Game.ColorMultiplier";
-	ExportedType = float4;
-	Semantic = Color;
-	DefaultValueF4 = float4(1.0000000e+00, 1.0000000e+00, 1.0000000e+00, 1.0000000e+00);
-}
-CParticleAttributeDeclaration	$5209F849
-{
-	ExportedName = "Game.TeamColor";
-	ExportedType = float4;
-	Semantic = Color;
-	DefaultValueF4 = float4(1.0000000e+00, 1.0000000e+00, 1.0000000e+00, 1.0000000e+00);
-}
-CParticleAttributeDeclaration	$F1356840
-{
-	ExportedName = "Game.TargetPosition";
-	ExportedType = float3;
-	Semantic = 3D_Coordinate;
-}
-CParticleAttributeDeclaration	$D0980C03
-{
-	ExportedName = "Game.Scale";
-	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
-}
 CParticleNodeAnnotation	$8EAEE7E8
 {
 	CustomName = {
@@ -1022,4 +982,44 @@ CParticleNodeAnnotation	$6C5BA959
 	WorkspacePosition = int2(-1078, -550);
 	Color = float4(1.0000000e+00, 7.1372551e-01, 3.9215688e-02, 1.0000000e+00);
 	SelfSize = int2(506, 242);
+}
+CParticleAttributeDeclaration	$7837C3E5
+{
+	ExportedName = "Game.LifespanMultiplier";
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleAttributeDeclaration	$2FB70E0C
+{
+	ExportedName = "Game.EmissionRateMultiplier";
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleAttributeDeclaration	$36207FBF
+{
+	ExportedName = "Game.SpeedMultiplier";
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
+}
+CParticleAttributeDeclaration	$E54029EE
+{
+	ExportedName = "Game.ColorMultiplier";
+	ExportedType = float4;
+	Semantic = Color;
+	DefaultValueF4 = float4(1.0000000e+00, 1.0000000e+00, 1.0000000e+00, 1.0000000e+00);
+}
+CParticleAttributeDeclaration	$5209F849
+{
+	ExportedName = "Game.TeamColor";
+	ExportedType = float4;
+	Semantic = Color;
+	DefaultValueF4 = float4(1.0000000e+00, 1.0000000e+00, 1.0000000e+00, 1.0000000e+00);
+}
+CParticleAttributeDeclaration	$F1356840
+{
+	ExportedName = "Game.TargetPosition";
+	ExportedType = float3;
+	Semantic = 3D_Coordinate;
+}
+CParticleAttributeDeclaration	$D0980C03
+{
+	ExportedName = "Game.Scale";
+	DefaultValueF4 = float4(1.0000000e+00, 0.0000000e+00, 0.0000000e+00, 0.0000000e+00);
 }

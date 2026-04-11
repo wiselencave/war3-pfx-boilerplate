@@ -42,7 +42,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, 1848310440);
+	InternalIndexedLastModifiedTime = uint2(413, 2036133948);
 	Assets = {
 		"$D279714D",
 	};
@@ -190,7 +190,7 @@ CEditorAssetEntryDir	$17E22F51
 CEditorAssetEntryDir	$8EAEE7E8
 {
 	Filename = "Wiselen";
-	InternalIndexedLastModifiedTime = uint2(413, 1680424395);
+	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
 	Assets = {
 		"$74AE6FBD",
 	};
@@ -13545,9 +13545,9 @@ CEditorTemplatePinEntry	$57BDB692
 CEditorAssetEntryEffect	$74AE6FBD
 {
 	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1680424395);
-	IndexedFileSize = 15007;
-	IndexedFileVersion = "2.5.2.63604";
+	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
+	IndexedFileSize = 15004;
+	IndexedFileVersion = "2.5.5.64615";
 	IndexedTemplates = {
 		"$D7AC40A1",
 		"$55C678A9",
@@ -13653,12 +13653,12 @@ CEditorTemplatePinEntry	$4A82CA62
 CEditorAssetEntryDir	$4F1C27CD
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 1682317940);
+	InternalIndexedLastModifiedTime = uint2(413, 1848587121);
 }
 CEditorAssetEntryDir	$70EAA19E
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 1776753401);
+	InternalIndexedLastModifiedTime = uint2(413, 2036271228);
 	Assets = {
 		"$D6EEA348",
 	};
@@ -13761,7 +13761,7 @@ CEditorTemplatePinEntry	$38F5BD4A
 CEditorAssetEntryEffect	$D6EEA348
 {
 	Filename = "Warcraft_3_Sample.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 1776753401);
+	InternalIndexedLastModifiedTime = uint2(413, 2036271228);
 	AssetDependencies = {
 		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
 		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
@@ -13770,8 +13770,7 @@ CEditorAssetEntryEffect	$D6EEA348
 		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
 		"Popcorn/Library/Wiselen/War3.pkfx",
 	};
-	IndexedFileSize = 20939;
-	Dirty = true;
+	IndexedFileSize = 19914;
 	IndexedFileVersion = "2.5.5.64615";
 	LayersData = 3;
 	AttributesData = 7;

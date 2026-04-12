@@ -42,7 +42,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, 2036133948);
+	InternalIndexedLastModifiedTime = uint2(413, 2102520353);
 	Assets = {
 		"$D279714D",
 	};
@@ -192,7 +192,7 @@ CEditorAssetEntryDir	$8EAEE7E8
 	Filename = "Wiselen";
 	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
 	Assets = {
-		"$74AE6FBD",
+		"$5F44DFAB",
 	};
 	CB_Expanded = true;
 }
@@ -13542,20 +13542,6 @@ CEditorTemplatePinEntry	$57BDB692
 	PinName = "Spawn";
 	DataType = 26;
 }
-CEditorAssetEntryEffect	$74AE6FBD
-{
-	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
-	IndexedFileSize = 15004;
-	IndexedFileVersion = "2.5.5.64615";
-	IndexedTemplates = {
-		"$D7AC40A1",
-		"$55C678A9",
-	};
-	GlobalTemplatesData = 2;
-	NodeGraphCountData = 2;
-	LanguagesData = "eng";
-}
 CEditorTemplateEntry	$D7AC40A1
 {
 	CustomName = "War3Game";
@@ -13658,7 +13644,7 @@ CEditorAssetEntryDir	$4F1C27CD
 CEditorAssetEntryDir	$70EAA19E
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 2036271228);
+	InternalIndexedLastModifiedTime = uint2(413, 2102666602);
 	Assets = {
 		"$D6EEA348",
 	};
@@ -13761,16 +13747,16 @@ CEditorTemplatePinEntry	$38F5BD4A
 CEditorAssetEntryEffect	$D6EEA348
 {
 	Filename = "Warcraft_3_Sample.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 2036271228);
+	InternalIndexedLastModifiedTime = uint2(413, 2102666602);
 	AssetDependencies = {
 		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
 		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
 		"Popcorn/Library/PopcornFXCore/Templates/Events.pkfx",
 		"Popcorn/Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds",
 		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
-		"Popcorn/Library/Wiselen/War3.pkfx",
+		"Popcorn/Library/Wiselen/Templates/War3.pkfx",
 	};
-	IndexedFileSize = 19914;
+	IndexedFileSize = 19924;
 	IndexedFileVersion = "2.5.5.64615";
 	LayersData = 3;
 	AttributesData = 7;
@@ -13814,4 +13800,122 @@ CEditorAssetEntryEffect	$D6EEA348
 	InstructionCount_RawUnoptimized_Max = 474;
 	InstructionCount_FinalSpawn_Max = 11;
 	NodeStatsCountData = 2;
+}
+CEditorAssetEntryDir	$5F44DFAB
+{
+	Filename = "Templates";
+	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
+	Assets = {
+		"$D806D24A",
+	};
+	CB_Expanded = true;
+}
+CEditorAssetEntryEffect	$D806D24A
+{
+	Filename = "War3.pkfx";
+	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
+	IndexedFileSize = 15004;
+	Dirty = true;
+	IndexedFileVersion = "2.5.5.64615";
+	IndexedTemplates = {
+		"$D03359D5",
+		"$AF0F155D",
+	};
+	GlobalTemplatesData = 2;
+	NodeGraphCountData = 2;
+	LanguagesData = "eng";
+}
+CEditorTemplateEntry	$D03359D5
+{
+	CustomName = "War3Game";
+	ClassType = Sampler;
+	Description = {
+		"@eng:Runtime attributes for world objects in Warcraft III: Reforged",
+	};
+	Public = true;
+	ObjectUID = -326839495;
+	OutputTypes = {
+		"$C01E62BC",
+		"$9D2B1A2F",
+		"$55289D1E",
+		"$EC84D339",
+		"$2BBAE5F0",
+		"$14978373",
+		"$89E0DDB2",
+	};
+}
+CEditorTemplatePinEntry	$C01E62BC
+{
+	ObjectUID = 211109784;
+	PinName = "LifespanMultiplier";
+	DataType = 9;
+}
+CEditorTemplatePinEntry	$9D2B1A2F
+{
+	ObjectUID = -448779794;
+	PinName = "EmissionRateMultiplier";
+	DataType = 9;
+}
+CEditorTemplatePinEntry	$55289D1E
+{
+	ObjectUID = -310326910;
+	PinName = "SpeedMultiplier";
+	DataType = 9;
+}
+CEditorTemplatePinEntry	$EC84D339
+{
+	ObjectUID = -1000606372;
+	PinName = "ColorMultiplier";
+	DataType = 12;
+}
+CEditorTemplatePinEntry	$2BBAE5F0
+{
+	ObjectUID = -1673346691;
+	PinName = "TeamColor";
+	DataType = 12;
+}
+CEditorTemplatePinEntry	$14978373
+{
+	ObjectUID = 1442422714;
+	PinName = "TargetPosition";
+	DataType = 11;
+}
+CEditorTemplatePinEntry	$89E0DDB2
+{
+	ObjectUID = -1066219123;
+	PinName = "Scale";
+	DataType = 9;
+}
+CEditorTemplateEntry	$AF0F155D
+{
+	CustomName = "War3Weather";
+	ClassType = Sampler;
+	Description = {
+		"@eng:Runtime attributes for weather effects in Warcraft III: Reforged",
+	};
+	Public = true;
+	ObjectUID = 317676193;
+	OutputTypes = {
+		"$DBE780E4",
+		"$1A05FF77",
+		"$78A74806",
+	};
+}
+CEditorTemplatePinEntry	$DBE780E4
+{
+	ObjectUID = -1510814344;
+	PinName = "TileCenter";
+	DataType = 11;
+}
+CEditorTemplatePinEntry	$1A05FF77
+{
+	ObjectUID = 348388455;
+	PinName = "Size";
+	DataType = 10;
+}
+CEditorTemplatePinEntry	$78A74806
+{
+	ObjectUID = -954555872;
+	PinName = "EmissionRate";
+	DataType = 9;
 }

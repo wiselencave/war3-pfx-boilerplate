@@ -8,3 +8,8 @@ CProjectSettingsBaking    $D857A09F
         "PC: desktop, windows",
     };
 }
+
+COvenBakeConfig_Texture    $A0B1C2D3
+{
+    AlsoCopyOriginalFile = true;
+}

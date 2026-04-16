@@ -36,7 +36,9 @@ When PopcornFX bakes effects for Warcraft III, the X and Y axes get swapped and 
  
 Use `scene.axisForward`, `scene.axisSide`, and `scene.axisUp` nodes instead of hardcoded vectors. These return the correct directions regardless of the axis system configuration and keep your effects axis-system independent.
 
-This applies to both directions and positions. To build an arbitrary offset, combine the axis nodes with scalar multipliers
+This applies to both directions and positions. To build an arbitrary offset, combine the axis nodes with scalar multipliers.
+
+The axis nodes work correctly only when baking with `Quick Bake` from the editor (with the proper coordinate frame configured in project settings). The standalone **Asset Baker** ignores per-effect axis settings and will produce incorrect directions. See [Coordinate System & Axis Convention](https://wiselencave.github.io/war3-pfx-docs/reference/coordinate_system/) for a detailed explanation and workarounds.
 
 ## Baking
 

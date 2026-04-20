@@ -151,7 +151,7 @@ CParticleNodeTemplateExport	$C45BF55C
 		"@eng:ColorMultiplier",
 	};
 	Description = {
-		"@eng:Color and alpha multipliers set on the Popcorn emitter node in the model",
+		"@eng:(Color + Alpha) multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$22B8D14F",
@@ -180,7 +180,7 @@ CParticleNodeTemplateExport	$E54029EE
 		"@eng:EmissionRateMultiplier",
 	};
 	Description = {
-		"@eng:Emission rate multiplier set on the Popcorn emitter node in the model",
+		"@eng:Emission rate multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$5209F849",
@@ -208,7 +208,7 @@ CParticleNodeTemplateExport	$ED80C982
 		"@eng:SpeedMultiplier",
 	};
 	Description = {
-		"@eng:Speed multiplier set on the Popcorn emitter node in the model",
+		"@eng:Speed multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$0384856D",
@@ -468,7 +468,7 @@ CParticleNodeTemplateExport	$5F44DFAB
 		"@eng:Game.EmissionRateMultiplier",
 	};
 	Description = {
-		"@eng:Emission rate multiplier set on the Popcorn emitter node in the model",
+		"@eng:Emission rate multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$D806D24A",
@@ -502,7 +502,7 @@ CParticleNodeTemplateExport	$9D2B1A2F
 		"@eng:Game.SpeedMultiplier",
 	};
 	Description = {
-		"@eng:Speed multiplier set on the Popcorn emitter node in the model",
+		"@eng:Speed multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$55289D1E",
@@ -536,7 +536,7 @@ CParticleNodeTemplateExport	$89E0DDB2
 		"@eng:Game.ColorMultiplier",
 	};
 	Description = {
-		"@eng:Color and alpha multipliers set on the Popcorn emitter node in the model",
+		"@eng:(Color + Alpha) multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$AF0F155D",

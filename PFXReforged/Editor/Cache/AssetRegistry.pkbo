@@ -42,7 +42,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, -1484240460);
+	InternalIndexedLastModifiedTime = uint2(413, -1403968967);
 	Assets = {
 		"$D279714D",
 	};
@@ -13644,7 +13644,7 @@ CEditorAssetEntryDir	$4F1C27CD
 CEditorAssetEntryDir	$70EAA19E
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, -1441745066);
+	InternalIndexedLastModifiedTime = uint2(413, -1404659222);
 	Assets = {
 		"$D6EEA348",
 	};
@@ -13747,9 +13747,8 @@ CEditorTemplatePinEntry	$38F5BD4A
 CEditorAssetEntryEffect	$D6EEA348
 {
 	Filename = "Warcraft_3_Sample.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, -1441745066);
+	InternalIndexedLastModifiedTime = uint2(413, -1406212935);
 	AssetDependencies = {
-		"D:/AFBfazi.mdx",
 		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
 		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
 		"Popcorn/Library/PopcornFXCore/Templates/Events.pkfx",
@@ -13757,7 +13756,8 @@ CEditorAssetEntryEffect	$D6EEA348
 		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
 		"Popcorn/Library/Wiselen/Templates/War3.pkfx",
 	};
-	IndexedFileSize = 19976;
+	IndexedFileSize = 19924;
+	Dirty = true;
 	IndexedFileVersion = "2.5.5.64615";
 	StatusData = Error;
 	MessageData = "ECould not find static dependency \"D:/AFBfazi.mdx\"";
@@ -13807,7 +13807,7 @@ CEditorAssetEntryEffect	$D6EEA348
 CEditorAssetEntryDir	$5F44DFAB
 {
 	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, 2102630814);
+	InternalIndexedLastModifiedTime = uint2(413, -1404298874);
 	Assets = {
 		"$D806D24A",
 	};
@@ -13816,8 +13816,8 @@ CEditorAssetEntryDir	$5F44DFAB
 CEditorAssetEntryEffect	$D806D24A
 {
 	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
-	IndexedFileSize = 15004;
+	InternalIndexedLastModifiedTime = uint2(413, -1404298874);
+	IndexedFileSize = 16152;
 	Dirty = true;
 	IndexedFileVersion = "2.5.5.64615";
 	IndexedTemplates = {

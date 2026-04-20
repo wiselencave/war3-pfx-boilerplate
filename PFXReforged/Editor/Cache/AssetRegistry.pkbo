@@ -4,7 +4,7 @@ CEditorAssetRegistry	$D857A09F
 	RootDir = "$35A36C4E";
 	FakeNodeRoot = "$4B933A29";
 	CB_CurrentDir = "SharedFX";
-	LastResourceDialogPath = "F:/wc3_projects/reforgedPopcornFX";
+	LastResourceDialogPath = "D:/";
 	RegistryVersion = 11;
 }
 CEditorAssetEntryDir	$35A36C4E
@@ -42,7 +42,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, 2102520353);
+	InternalIndexedLastModifiedTime = uint2(413, -1484240460);
 	Assets = {
 		"$D279714D",
 	};
@@ -190,7 +190,7 @@ CEditorAssetEntryDir	$17E22F51
 CEditorAssetEntryDir	$8EAEE7E8
 {
 	Filename = "Wiselen";
-	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
+	InternalIndexedLastModifiedTime = uint2(413, 2102630815);
 	Assets = {
 		"$5F44DFAB",
 	};
@@ -13644,7 +13644,7 @@ CEditorAssetEntryDir	$4F1C27CD
 CEditorAssetEntryDir	$70EAA19E
 {
 	Filename = "SharedFX";
-	InternalIndexedLastModifiedTime = uint2(413, 2102666602);
+	InternalIndexedLastModifiedTime = uint2(413, -1441745066);
 	Assets = {
 		"$D6EEA348",
 	};
@@ -13747,8 +13747,9 @@ CEditorTemplatePinEntry	$38F5BD4A
 CEditorAssetEntryEffect	$D6EEA348
 {
 	Filename = "Warcraft_3_Sample.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, 2102666602);
+	InternalIndexedLastModifiedTime = uint2(413, -1441745066);
 	AssetDependencies = {
+		"D:/AFBfazi.mdx",
 		"Popcorn/Library/PopcornFXCore/Materials/Default_Billboard.pkma",
 		"Popcorn/Library/PopcornFXCore/Templates/Dynamics.pkfx",
 		"Popcorn/Library/PopcornFXCore/Templates/Events.pkfx",
@@ -13756,8 +13757,10 @@ CEditorAssetEntryEffect	$D6EEA348
 		"Popcorn/Library/PopcornFXCore/Templates/Core.pkfx",
 		"Popcorn/Library/Wiselen/Templates/War3.pkfx",
 	};
-	IndexedFileSize = 19924;
+	IndexedFileSize = 19976;
 	IndexedFileVersion = "2.5.5.64615";
+	StatusData = Error;
+	MessageData = "ECould not find static dependency \"D:/AFBfazi.mdx\"";
 	LayersData = 3;
 	AttributesData = 7;
 	NodeGraphCountData = 1;
@@ -13804,7 +13807,7 @@ CEditorAssetEntryEffect	$D6EEA348
 CEditorAssetEntryDir	$5F44DFAB
 {
 	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, 2036227664);
+	InternalIndexedLastModifiedTime = uint2(413, 2102630814);
 	Assets = {
 		"$D806D24A",
 	};

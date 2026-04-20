@@ -94,7 +94,7 @@ CParticleNodeTemplateExport	$55F99FBA
 		"@eng:TargetPosition",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Not yet documented",
 	};
 	InputPins = {
 		"$C73E7C05",
@@ -123,7 +123,7 @@ CParticleNodeTemplateExport	$0C954798
 		"@eng:LifespanMultiplier",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Lifespan multiplier from the emitter\'s model data",
 	};
 	InputPins = {
 		"$B4F3323B",
@@ -151,7 +151,7 @@ CParticleNodeTemplateExport	$C45BF55C
 		"@eng:ColorMultiplier",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Color and alpha multipliers set on the Popcorn emitter node in the model",
 	};
 	InputPins = {
 		"$22B8D14F",
@@ -180,7 +180,7 @@ CParticleNodeTemplateExport	$E54029EE
 		"@eng:EmissionRateMultiplier",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Emission rate multiplier set on the Popcorn emitter node in the model",
 	};
 	InputPins = {
 		"$5209F849",
@@ -208,7 +208,7 @@ CParticleNodeTemplateExport	$ED80C982
 		"@eng:SpeedMultiplier",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Speed multiplier set on the Popcorn emitter node in the model",
 	};
 	InputPins = {
 		"$0384856D",
@@ -236,7 +236,7 @@ CParticleNodeTemplateExport	$9C42C17D
 		"@eng:TeamColor",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Owner\'s team color as RGBA",
 	};
 	InputPins = {
 		"$AFB08F84",
@@ -265,7 +265,7 @@ CParticleNodeTemplateExport	$C072C98D
 		"@eng:Scale",
 	};
 	Description = {
-		"@eng:Game",
+		"@eng:Owner object\'s uniform scale",
 	};
 	InputPins = {
 		"$F8EE30D4",
@@ -315,6 +315,9 @@ CParticleNodeTemplateExport	$A5F2CD78
 	CustomName = {
 		"@eng:TileCenter",
 	};
+	Description = {
+		"@eng:Not yet documented",
+	};
 	InputPins = {
 		"$3F9A3D9B",
 	};
@@ -341,6 +344,9 @@ CParticleNodeTemplateExport	$C71AA220
 	CustomName = {
 		"@eng:EmissionRate",
 	};
+	Description = {
+		"@eng:Not yet documented",
+	};
 	InputPins = {
 		"$ADC6DB63",
 	};
@@ -365,6 +371,9 @@ CParticleNodeTemplateExport	$14C3FC67
 {
 	CustomName = {
 		"@eng:Size",
+	};
+	Description = {
+		"@eng:Not yet documented",
 	};
 	InputPins = {
 		"$633D8FB6",
@@ -424,6 +433,9 @@ CParticleNodeTemplateExport	$41E5AFE7
 	CustomName = {
 		"@eng:Game.LifespanMultiplier",
 	};
+	Description = {
+		"@eng:Lifespan multiplier from the emitter\'s model data",
+	};
 	InputPins = {
 		"$BEDF8936",
 	};
@@ -454,6 +466,9 @@ CParticleNodeTemplateExport	$5F44DFAB
 {
 	CustomName = {
 		"@eng:Game.EmissionRateMultiplier",
+	};
+	Description = {
+		"@eng:Emission rate multiplier set on the Popcorn emitter node in the model",
 	};
 	InputPins = {
 		"$D806D24A",
@@ -486,6 +501,9 @@ CParticleNodeTemplateExport	$9D2B1A2F
 	CustomName = {
 		"@eng:Game.SpeedMultiplier",
 	};
+	Description = {
+		"@eng:Speed multiplier set on the Popcorn emitter node in the model",
+	};
 	InputPins = {
 		"$55289D1E",
 	};
@@ -516,6 +534,9 @@ CParticleNodeTemplateExport	$89E0DDB2
 {
 	CustomName = {
 		"@eng:Game.ColorMultiplier",
+	};
+	Description = {
+		"@eng:Color and alpha multipliers set on the Popcorn emitter node in the model",
 	};
 	InputPins = {
 		"$AF0F155D",
@@ -549,6 +570,9 @@ CParticleNodeTemplateExport	$78A74806
 	CustomName = {
 		"@eng:Game.TeamColor",
 	};
+	Description = {
+		"@eng:Owner\'s team color as RGBA",
+	};
 	InputPins = {
 		"$AF09E441",
 	};
@@ -581,6 +605,9 @@ CParticleNodeTemplateExport	$2FB70E0C
 	CustomName = {
 		"@eng:Game.TargetPosition",
 	};
+	Description = {
+		"@eng:Not yet documented",
+	};
 	InputPins = {
 		"$36207FBF",
 	};
@@ -611,6 +638,9 @@ CParticleNodeTemplateExport	$96A2AA34
 {
 	CustomName = {
 		"@eng:Game.Scale",
+	};
+	Description = {
+		"@eng:Owner object\'s uniform scale",
 	};
 	InputPins = {
 		"$D970BB07",
@@ -643,6 +673,9 @@ CParticleNodeTemplateExport	$8EAEE7E8
 	CustomName = {
 		"@eng:Weather.TileCenter",
 	};
+	Description = {
+		"@eng:Not yet documented",
+	};
 	InputPins = {
 		"$125230CB",
 	};
@@ -674,6 +707,9 @@ CParticleNodeTemplateExport	$AAFF12BE
 	CustomName = {
 		"@eng:Weather.Size",
 	};
+	Description = {
+		"@eng:Not yet documented",
+	};
 	InputPins = {
 		"$6C5BA959",
 	};
@@ -703,6 +739,9 @@ CParticleNodeTemplateExport	$5A435152
 {
 	CustomName = {
 		"@eng:Weather.EmissionRate",
+	};
+	Description = {
+		"@eng:Not yet documented",
 	};
 	InputPins = {
 		"$E406E297",

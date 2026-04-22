@@ -94,7 +94,7 @@ CParticleNodeTemplateExport	$55F99FBA
 		"@eng:TargetPosition",
 	};
 	Description = {
-		"@eng:Not yet documented",
+		"@eng:Lightning destination point in world space. Only meaningful for lightning effects, (0, 0, 0) otherwise",
 	};
 	InputPins = {
 		"$C73E7C05",
@@ -606,7 +606,7 @@ CParticleNodeTemplateExport	$2FB70E0C
 		"@eng:Game.TargetPosition",
 	};
 	Description = {
-		"@eng:Not yet documented",
+		"@eng:Lightning destination point in world space. Only meaningful for lightning effects, (0, 0, 0) otherwise",
 	};
 	InputPins = {
 		"$36207FBF",

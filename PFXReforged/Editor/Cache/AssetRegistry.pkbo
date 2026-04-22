@@ -3,7 +3,7 @@ CEditorAssetRegistry	$D857A09F
 {
 	RootDir = "$35A36C4E";
 	FakeNodeRoot = "$4B933A29";
-	CB_CurrentDir = "SharedFX";
+	CB_CurrentDir = "Popcorn/Library/Wiselen/Templates";
 	LastResourceDialogPath = "D:/";
 	RegistryVersion = 11;
 }
@@ -42,7 +42,7 @@ CEditorAssetEntryDir	$EAC726E3
 CEditorAssetEntryDir	$4ADE8DE2
 {
 	Filename = "Cache";
-	InternalIndexedLastModifiedTime = uint2(413, -1403968967);
+	InternalIndexedLastModifiedTime = uint2(413, -1253174101);
 	Assets = {
 		"$D279714D",
 	};
@@ -13759,8 +13759,6 @@ CEditorAssetEntryEffect	$D6EEA348
 	IndexedFileSize = 19924;
 	Dirty = true;
 	IndexedFileVersion = "2.5.5.64615";
-	StatusData = Error;
-	MessageData = "ECould not find static dependency \"D:/AFBfazi.mdx\"";
 	LayersData = 3;
 	AttributesData = 7;
 	NodeGraphCountData = 1;
@@ -13807,7 +13805,7 @@ CEditorAssetEntryEffect	$D6EEA348
 CEditorAssetEntryDir	$5F44DFAB
 {
 	Filename = "Templates";
-	InternalIndexedLastModifiedTime = uint2(413, -1404298874);
+	InternalIndexedLastModifiedTime = uint2(413, -1403757780);
 	Assets = {
 		"$D806D24A",
 	};
@@ -13816,9 +13814,8 @@ CEditorAssetEntryDir	$5F44DFAB
 CEditorAssetEntryEffect	$D806D24A
 {
 	Filename = "War3.pkfx";
-	InternalIndexedLastModifiedTime = uint2(413, -1404298874);
-	IndexedFileSize = 16152;
-	Dirty = true;
+	InternalIndexedLastModifiedTime = uint2(413, -1403757780);
+	IndexedFileSize = 16066;
 	IndexedFileVersion = "2.5.5.64615";
 	IndexedTemplates = {
 		"$D03359D5",
